@@ -1,0 +1,8 @@
+@import "_general";
+@import "_layout";
+@import "_campaign";
+@import "_donate-form";
+
+.required label:after {
+    content: '';
+}

@@ -1,0 +1,38 @@
+version: '2'
+services:
+  php:
+    image: yiisoftware/yii2-php:7.4-apache
+    volumes:
+      - ~/.composer-docker/cache:/root/.composer/cache:cached
+      - ./:/app
+    ports:
+      - '8000:80'
+
+  node:
+      image: node:8-jessie
+      working_dir: /app
+      volumes:
+          - $PWD:/app:cached
+
+  mysql:
+    image: mysql/mysql-server:8.0
+    environment:
+        MYSQL_DATABASE: fundraiser
+        MYSQL_ROOT_PASSWORD: fundraiser
+        MYSQL_ROOT_HOST: '%'
+    volumes:
+      - db-data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+        - '8888:80'
+    environment:
+        - PMA_ARBITRARY=1
+        - PMA_HOST=mysql
+        - UPLOAD_LIMIT=300M
+    depends_on:
+        - mysql
+
+volumes:
+    db-data:

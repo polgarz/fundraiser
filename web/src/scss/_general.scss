@@ -1,0 +1,81 @@
+$font-family-base: 'Open Sans', sans-serif;
+$navbar-dark-color: white;
+$theme-colors: (
+    "primary": #e7302a,
+    "secondary": #585858
+);
+$headings-font-family: 'Oswald', sans-serif;
+$headings-font-weight: 400;
+$headings-color: #e7302a;
+$spacer: 1rem;
+$spacers: (
+    6: ($spacer * 6),
+    7: ($spacer * 7),
+    8: ($spacer * 8)
+);
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+.bg-pink {
+    background-color: #faedf0;
+}
+
+.bg-gradient {
+    background: rgba(250,237,240,1);
+    background: -moz-linear-gradient(left, rgba(250,237,240,1) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,237,240,1)), color-stop(71%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left, rgba(250,237,240,1) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(250,237,240,1) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(250,237,240,1) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right, rgba(250,237,240,1) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faedf0', endColorstr='#ffffff', GradientType=1 );
+}
+
+.center-section {
+    max-width: 1100px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.rounded-xl {
+    border-radius: 1.5rem;
+}
+
+.btn-white {
+    background-color: white;
+    color: theme-color(primary);
+    border: none;
+}
+
+.page {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+
+    h3 {
+        color: theme-color(secondary);
+        font-size: 1.5rem;
+    }
+
+    strong {
+        font-weight: 600;
+    }
+}
+
+span.wpcf7-list-item {
+    margin: 0 !important;
+    display: block !important;
+}
+
+.blocks-gallery-item figure {
+    align-items: center !important;
+}
+
+.wp-block-image img {
+    height: auto;
+}
+
+::placeholder {
+    opacity: .5 !important;
+}

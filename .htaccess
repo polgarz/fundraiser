@@ -1,0 +1,13 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteRule ^(.*)$ web/$1 [L]
+</IfModule>
+
+# LEGACY REDIRECTS
+Redirect 301 /jelentkezes-karacsonyi-adomanygyujto-nagykovetnek /kampany/karacsonyi-ajandek-helyett/jelentkezes-nagykovetnek
+Redirect 301 /jelentkezes-tarsasmaraton-adomanygyujto-nagykovetnek /kampany/tarsasmaraton-2020/jelentkezes-nagykovetnek
+Redirect 301 /jelentkezes-onzetlen-szulinapos-adomanygyujto-nagykovetnek /kampany/onzetlen-szulinaposok/jelentkezes-nagykovetnek
+Redirect 301 /jelentkezes-karacsonyi-21-napos-kihivasra /kampany/21-napos-karacsonyi-kihivas/jelentkezes-nagykovetnek
+Redirect 301 /jelentkezes-rendszeres-tamogatok-gyujtesere /kampany/legyel-rendszeres-tamogatonk/jelentkezes-nagykovetnek

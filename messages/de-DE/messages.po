@@ -1,0 +1,892 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgctxt "app"
+msgid "Ismeretlen hiba törént. Kérjük, próbáld meg újra"
+msgstr "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es erneut"
+
+msgctxt "app"
+msgid "Mentés"
+msgstr "Speichern"
+
+msgctxt "app"
+msgid "Váratlan hiba történt! Kérjük vedd fel velünk a kapcsolatot az <a href=\"mailto:info@indahousehungary.hu\">info@indahousehungary.hu</a> email címen."
+msgstr "Ein unerwarteter Fehler ist aufgetreten! Bitte kontaktiere uns unter <a href=\"mailto:info@indahousehungary.hu\"> info@indahousehungary.hu </a>."
+
+msgctxt "app"
+msgid "vagy"
+msgstr "oder"
+
+msgctxt "app/error"
+msgid "Ajjaj!"
+msgstr "Hoppla!"
+
+msgctxt "app/error"
+msgid "Vissza a kezdőoldalra"
+msgstr "Zurück zur Startseite"
+
+msgctxt "apply"
+msgid ""
+msgstr ""
+
+msgctxt "apply"
+msgid "1. Mivel foglalkozol?"
+msgstr ""
+
+msgctxt "apply"
+msgid "2. Honnan hallottál rólunk?"
+msgstr ""
+
+msgctxt "apply"
+msgid "3. Mi szólított meg benne, miért szeretnél az önkéntesünk lenni?"
+msgstr ""
+
+msgctxt "apply"
+msgid "4. Van valamilyen önkéntes/gyerekekkel kapcsolatos tapasztalatod? (nem feltétel) Ha van, akkor mesélj róla bővebben!"
+msgstr ""
+
+msgctxt "apply"
+msgid "5. A világ leggazdagabb embere rád hagyja a teljes vagyonát. Hogyan költenéd el? /ne aggódj, nálunk nem kell pénzügyekkel foglalkoznod!/"
+msgstr ""
+
+msgctxt "apply"
+msgid "6. Hogy szeretnél segíteni?"
+msgstr ""
+
+msgctxt "apply"
+msgid "A mező kitöltése kötelező"
+msgstr ""
+
+msgctxt "apply"
+msgid "A személyes foglalkozások mellett online foglalkozásokat is tartunk a gyerekeknek. Az online tanulás most rendszerszinten hétköznaponként fog megvalósulni a gyerekek jelentkezései alapján. Ha heti/kétheti rendszerességgel tudsz online foglalkozást tartani, várjuk a jelentkezésedet!<br>\n                <strong>Önkéntes vállalásai:</strong> kéthetente hétvégén másfél óra online foglalkozás, plusz az arra való felkészülés."
+msgstr ""
+
+msgctxt "apply"
+msgid "Amennyiben bele tudsz szorítani a hétvégéidbe egy-egy idősávot, amikor tanulsz egy gyerekkel, ezt a lehetőséget válaszd! Lehetsz beugró online önkéntes a tanodában, vagy egy középiskolás állandó segítője. Szükséged lesz szélessávú internetre.<br>\n                <strong>Önkéntes vállalásai:</strong> kéthetente hétvégén másfél óra online foglalkozás, plusz az arra való felkészülés."
+msgstr "@@@@"
+
+msgctxt "apply"
+msgid "Az aktív pihenés szerelmeseinek! Ha nem szeretnél gyerekekkel foglalkozni, de szívesen részt vennél az InDaHouse Önkéntes és Gyerekközpont építésében, ez a te választásod! A szakmai előképzettség nem feltétel, de ha meg tudod különböztetni a spatulát a pajszertól, az csak előny 🙂"
+msgstr ""
+
+msgctxt "apply"
+msgid "Csoportos foglalkozásokat szeretnék összeállítani"
+msgstr ""
+
+msgctxt "apply"
+msgid "Egyéb, leírom:"
+msgstr ""
+
+msgctxt "apply"
+msgid "Email címed"
+msgstr ""
+
+msgctxt "apply"
+msgid "Feladatlapokat készítenék"
+msgstr ""
+
+msgctxt "apply"
+msgid "Ha abban szeretnél segíteni, hogy ki tudjuk fizetni a benzint és tudjunk venni nyomtatópatront, az InDaFund-ban a helyed! Ez az InDaHouse egyik legkreatívabb csapata, aminek az a célja, hogy a föld alól is pénzt teremtsen elő a működésünkre. Jótékonysági események kitalálása és megszervezése, kihívások vállalása, lehetséges adományozók megszólítása megszokott és szokatlan módokon. Tedd lehetővé az InDaHouse működését!"
+msgstr "@@@@"
+
+msgctxt "apply"
+msgid "Ha egy-két havonta rá tudsz szánni egy hétvégét, szeretnéd közelebbről megismerni a gyerekeket és helyben segíteni, ez a te választásod! Utazó önkéntesként foglalkozhatsz kicsikkel (0-5 éves korig), nagyobbakkal (5-6 évesek) és még nagyobbakkal (6-18 éves korig) egyaránt.<br />\n                <strong>Önkéntes vállalásai:</strong> legalább egy tanéven keresztül kéthavonta egy hétvége Hernádszentandráson, vagy Fügödön."
+msgstr ""
+
+msgctxt "apply"
+msgid "Ha hetente csak pár órád van, és már általános iskolában is untad a \"Pisti egyik kezében 14 dinnye, a másikban három elefánt\" jellegű feladatokat, készíthetsz egyedi feladatlapokat a foglalkozásokra.<br />\n                <strong>Önkéntes vállalásai:</strong> legalább egy tanéven keresztül egy- vagy kéthetente egy feladatlap elkészítése.<br />"
+msgstr ""
+
+msgctxt "apply"
+msgid "InDaFundraiser szeretnék lenni"
+msgstr "@@@@"
+
+msgctxt "apply"
+msgid "Kérjük fogadd el az adatvédelmi tájékoztatóban írtakat"
+msgstr ""
+
+msgctxt "apply"
+msgid "Lakhelyed, ahol életvitelszerűen élsz (elég a település)"
+msgstr ""
+
+msgctxt "apply"
+msgid "Neved"
+msgstr ""
+
+msgctxt "apply"
+msgid "Online foglalkozásokat tartanék a gyerekeknek"
+msgstr ""
+
+msgctxt "apply"
+msgid "Rengeteg egyéb módon segíthetsz nekünk, például események szervezésében, pályázatok írásában,<br />\n                grafikában vagy az informatikai háttér biztosításában. Te miben vagy jó?"
+msgstr ""
+
+msgctxt "apply"
+msgid "Szívesen találsz kreatív feladatokat, amiket 3-4 gyerek közösen tud megoldani? Havonta egy hétvégét minden gyerekünk csoportos foglalkozáson vesz részt, amit az otthonról segítő önkéntesek kisebb csoportja készít elő. Legyél ennek a csoportnak a tagja!<br />\n                <strong>Önkéntes vállalásai:</strong> Havi egy csoportos foglalkozás előkészítése más önkéntesekkel közösen."
+msgstr ""
+
+msgctxt "apply"
+msgid "Telefonszámod"
+msgstr ""
+
+msgctxt "apply"
+msgid "Utazó önkéntes szeretnék lenni"
+msgstr ""
+
+msgctxt "apply"
+msgid "Életkorod"
+msgstr ""
+
+msgctxt "apply"
+msgid "Építkezni szeretnék"
+msgstr ""
+
+msgctxt "campaign"
+msgid "A InDaHouse havi működési költsége ötmillió forint. Ebből 230 Borsodban élő gyereknek tartunk személyre szabott fejlesztést hétről hétre."
+msgstr "Die monatlichen Betriebskosten von InDaHouse betragen 5 Mio. HUF. Davon erhalten 230 Kinder, die in Borsod leben, Woche für Woche eine individuelle Förderung."
+
+msgctxt "campaign"
+msgid "Adományozók"
+msgstr "Spender"
+
+msgctxt "campaign"
+msgid "Anonim támogatás"
+msgstr ""
+
+msgctxt "campaign"
+msgid "Dátum"
+msgstr "Datum"
+
+msgctxt "campaign"
+msgid "Erre a kampányra nem tudsz jelentkezni"
+msgstr "Du kannst dich nicht für diese Kampagne registrieren"
+
+msgctxt "campaign"
+msgid "Hiba történt az előnézet betöltése közben"
+msgstr "Beim Laden der Vorschau ist ein Fehler aufgetreten"
+
+msgctxt "campaign"
+msgid "Ismeretlen rendszeres adományozás"
+msgstr "Unbekannte regelmäßige Spende"
+
+msgctxt "campaign"
+msgid "Köszönjük a segítséget!"
+msgstr "Danke für deine Hilfe!"
+
+msgctxt "campaign"
+msgid "Megnézem"
+msgstr "Anschauen"
+
+msgctxt "campaign"
+msgid "Ne jelenjen meg a nevem a támogatók között"
+msgstr "@@Anonyme Spende@@"
+
+msgctxt "campaign"
+msgid "Nem található nagykövet ezen a linken"
+msgstr "Unter diesem Link wurde kein Botschafter gefunden"
+
+msgctxt "campaign"
+msgid "Nincs ilyen kampány"
+msgstr "Die Kampagne existiert nicht"
+
+msgctxt "campaign"
+msgid "SimplePay azonosító"
+msgstr "SimplePay ID"
+
+msgctxt "campaign"
+msgid "Státusz"
+msgstr "Status"
+
+msgctxt "campaign"
+msgid "rendszeres"
+msgstr "regelmäßig"
+
+msgctxt "campaign"
+msgid "Általános támogatás"
+msgstr "Allgemeine Unterstützung"
+
+msgctxt "campaign"
+msgid "Én is szeretnék adni"
+msgstr "Ich möchte auch gerne spenden"
+
+msgctxt "campaign"
+msgid "Összeg"
+msgstr "Betrag"
+
+msgctxt "campaign"
+msgid "összegyűjtőtt adomány"
+msgstr "Spendenaufkommen"
+
+msgctxt "campaign/ambassador"
+msgid "A kampányod sikeresen törölve"
+msgstr "Deine Kampagne wurde erfolgreich gelöscht"
+
+msgctxt "campaign/ambassador"
+msgid "Adományozok"
+msgstr "Ich unterstütze ihn"
+
+msgctxt "campaign/ambassador"
+msgid "Adományozás leállítása"
+msgstr "Spende beenden"
+
+msgctxt "campaign/ambassador"
+msgid "Biztosan törlöd a kampányod? Ezt a műveletet nem lehet visszavonni!"
+msgstr "Möchtest du deine Kampagne wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden!"
+
+msgctxt "campaign/ambassador"
+msgid "Célösszeg"
+msgstr "Zielbetrag"
+
+msgctxt "campaign/ambassador"
+msgid "Ez a kampány név már foglalt, kérjük válassz másikat!"
+msgstr "Dieser Kampagnenname ist bereits vergeben, bitte wähle einen anderen Kampagnennamen!"
+
+msgctxt "campaign/ambassador"
+msgid "Hiba történt a kampányod törlése során, kérjük, próbáld újra!"
+msgstr "Beim Löschen deiner Kampagne ist ein Fehler aufgetreten. Bitte versuche es erneut!"
+
+msgctxt "campaign/ambassador"
+msgid "Kampányod címe"
+msgstr "Der Titel deiner Kampagne"
+
+msgctxt "campaign/ambassador"
+msgid "Kampányod rövid leírása"
+msgstr "Eine kurze Beschreibung deiner Kampagne"
+
+msgctxt "campaign/ambassador"
+msgid "Kampányod teljes szövege"
+msgstr "Der vollständige Text deiner Kampagne"
+
+msgctxt "campaign/ambassador"
+msgid "Kampányom megtekintése"
+msgstr "Meine Kampagne anzeigen"
+
+msgctxt "campaign/ambassador"
+msgid "Kép a kampányodhoz"
+msgstr "Bild für deine Kampagne"
+
+msgctxt "campaign/ambassador"
+msgid "Kérjük fogadd el az adatvédelmi tájékoztatóban foglaltakat"
+msgstr "Bitte akzeptiere die Datenschutzerklärung!"
+
+msgctxt "campaign/ambassador"
+msgid "Kampányok"
+msgstr "Kampagnen"
+
+msgctxt "campaign/ambassador"
+msgid "Levelezési címed"
+msgstr "Deine Postanschrift"
+
+msgctxt "campaign/ambassador"
+msgid "Pólóméreted"
+msgstr "Deine T-Shirt Größe"
+
+msgctxt "campaign/ambassador"
+msgid "Sikeresen módosítottad a kampányodat"
+msgstr "Deine Kampagne wurde erfolgreich geändert"
+
+msgctxt "campaign/ambassador"
+msgid "Támogasd te is {name} kampányát!"
+msgstr "Unterstütze auch du die {name} Kampagne!"
+
+msgctxt "campaign/ambassador"
+msgid "Vállalásod"
+msgstr ""
+
+msgctxt "campaign/ambassador"
+msgid "{goal} cél"
+msgstr "{goal} Ziel"
+
+msgctxt "campaign/ambassador"
+msgid "összegyűjtve"
+msgstr "gesammelt"
+
+msgctxt "campaign/apply"
+msgid "100-120 karakter, ez fog megjelenni a kampány főoldalán."
+msgstr ""
+
+msgctxt "campaign/apply"
+msgid "<strong>Az <a href=\"{url}\">adatvédelmi tájékoztatót</a> elolvastam, megértettem, és elfogadom az abban foglaltakat</strong>"
+msgstr "<strong> Ich habe <a href=\"{url}\">die Datenschutzerklärung </a> gelesen, verstanden und bin damit einverstanden."
+
+msgctxt "campaign/apply"
+msgid "Amennyiben olyan kampányra jelentkezel, ahol a kihívás adott (Társasmaraton, Túramaraton), ott arra kérünk, hogy a kampányod teljes szövegénél a konkrét vállalásod írd le, pl. hogy hány órát fogtok társasozni, vagy hogy hány kilométert vagy mennyi időt fogtok túrázni."
+msgstr ""
+
+msgctxt "campaign/apply"
+msgid "Egy rövid leírás, ami összefoglalja, hogy miért szeretnél nekünk gyűjteni (maximum 140 karakter)"
+msgstr "Eine kurze Beschreibung, die zusammenfasst, warum du für uns sammeln willst (maximal 140 Zeichen)"
+
+msgctxt "campaign/apply"
+msgid "Ennek az űrlapnak a kitöltésével arra vállalkozol, hogy belefogsz egy aktív kampányba,\n            amelynek során megkéred az ismerőseidet, hogy adakozzanak az InDaHouse javára.\n            Ehhez találnod kell egy hozzád illő kihívást (minden nap jógázol, főzöl, vagy kipróbálsz valami újat, stb.),\n            amiről posztolsz a Facebook oldaladon, így hívva fel a figyelmet a gyűjtésedre.\n            Mi az, amit már régóta halogatsz? Vágj bele most egy jó ügyért!"
+msgstr "@@Indem du dieses Formular ausfüllst, verpflichtest du dich diese Kampagne aktiv zu unterstützen. Bitte deine Freunde\n        und deine Familie darum für InDaHouse zu spenden. Dazu suchst du dir eine für dich passende Challenge \n( z.B. jeden Tag Yoga machen, kochen, etwas Neues ausprobieren usw.), die du auf deiner Facebookseite postest\n um auf die Spendenakton aufmerksam zu machen. Gibt es etwas was du schon lange mal tun wolltest? Engagieren dich jetzt für einen guten Zweck!@@"
+
+msgctxt "campaign/apply"
+msgid "Ennek az űrlapnak a kitöltésével arra vállalkozol, hogy belefogsz egy aktív kampányba, amelynek során megkéred az ismerőseidet, hogy adakozzanak az InDaHouse javára. Ehhez találnod kell egy hozzád illő kihívást (minden nap jógázol, főzöl, vagy kipróbálsz valami újat, stb.), amiről posztolsz a Facebook oldaladon, így hívva fel a figyelmet a gyűjtésedre. Mi az, amit már régóta halogatsz? Vágj bele most egy jó ügyért!"
+msgstr ""
+
+msgctxt "campaign/apply"
+msgid "Hosszú leírása annak, hogy miért szeretnél nekünk gyűjteni (bármilyen hosszú lehet)"
+msgstr "Lange Beschreibung, warum du für uns sammeln möchtest (beliebige Länge)"
+
+msgctxt "campaign/apply"
+msgid "Jelentkezem"
+msgstr "Ich bewerbe mich"
+
+msgctxt "campaign/apply"
+msgid "Kedves {name}!"
+msgstr "Liebe {name}!"
+
+msgctxt "campaign/apply"
+msgid "Köszönjük, hogy jelentkezel nagykövetnek!"
+msgstr "Vielen Dank, dass du dich als Botschafter beworben hast!"
+
+msgctxt "campaign/apply"
+msgid "Maximum 35 karakter"
+msgstr "Bis zu 35 Zeichen"
+
+msgctxt "campaign/apply"
+msgid "Ne feledd! Kampányodat bármikor módosíthatod a <a href=\"{url}\">profil oldaladon</a>"
+msgstr "Nicht vergessen! Du kannst deine Kampagne jederzeit auf deiner <a href=\"{url}\"> Profilseite </a> bearbeiten"
+
+msgctxt "campaign/apply"
+msgid "Sikeres jelentkezés!"
+msgstr "Erfolgreiche Bewerbung!"
+
+msgctxt "campaign/apply"
+msgid "Sosem csináltál még ilyet? Ne aggódj, szerencsére nekünk van már ebben tapasztalatunk.\n            Az elmúlt évek során több mint 170 követ gyűjtött már nekünk, összesen közel 18 millió forintot.\n            A kampányod alatt végig számíthatsz a támogatásunkra!\n            A jelentkezés után elküldjük az adománygyűjtő kisokosunkat, a gyűjtés alatt pedig a követeknek\n            létrehozott csoportban kérdezhettek tőlünk, és egymással is megoszthatjátok a tapasztalataitokat."
+msgstr "@@Du hast das noch nie gemacht? Kein Problem, zum Glück haben wir Erfahrung.\nIm Laufe der Jahre haben mehr als 170 Follower fast 18 Millionen HUF gesammelt.\nDu kannst auf unsere Unterstützung während deiner Kampagne zählen!\nNach deiner Anmeldung senden wir dir unseren Fundraising-Leitfaden zu \nund um dich während des Fundraising-Prozesses zu unterstützen, \nkannst du uns Fragen stellen und deine Erfahrungen in der Botschaftergruppe teilen.@@"
+
+msgctxt "campaign/apply"
+msgid "Sosem csináltál még ilyet? Ne aggódj, szerencsére nekünk van már ebben tapasztalatunk. Az elmúlt évek során több mint 170 követ gyűjtött már nekünk, összesen közel 18 millió forintot. A kampányod alatt végig számíthatsz a támogatásunkra! A jelentkezés után elküldjük az adománygyűjtő kisokosunkat, a gyűjtés alatt pedig a követeknek létrehozott csoportban kérdezhettek tőlünk, és egymással is megoszthatjátok a tapasztalataitokat."
+msgstr ""
+
+msgctxt "campaign/apply"
+msgid "Szeretnénk neked köszönetképpen egy apró ajándékot küldeni (pl. InDaHouse-os pólót), ehhez kell a címed."
+msgstr "Als kleines Dankeschön möchten wir dir ein kleines Geschenk zusenden, dazu benötigen wir deine Postanschrift."
+
+msgctxt "campaign/apply"
+msgid "Valaki a csapatból hamarosan elbírálja a kampányodat. Ha sikeres volt az elbírálás, külön emailben értesítünk."
+msgstr "Jemand im Team wird deine Kampagne bald überprüfen. Nach erfolgreicher Überprüfung werden wir dich in einer separaten E-Mail benachrichtigen."
+
+msgctxt "campaign/apply"
+msgid "Válassz egy jó minőségű képet magadról, ami megjelenik majd a gyűjtesednél. A képnek jpg vagy png formátumúnak kell lennie, és nem lehet nagyobb mint 14 mb"
+msgstr "Wähle ein hochwertiges Bild von dir, das in deiner Sammlung angezeigt wird. Dieses Bild muss im JPG- oder PNG-Format vorliegen und darf nicht größer als 14 MB sein"
+
+msgctxt "campaign/apply"
+msgid "Válaszd ki a méreted"
+msgstr "@@Wähle deine Größe@@"
+
+msgctxt "campaign/apply"
+msgid "{campaign} - jelentkezés nagykövetnek"
+msgstr "{campaign}  - Bewerbung als Botschafter"
+
+msgctxt "campaign/apply"
+msgid "{campaign} - kampányod szerkesztése"
+msgstr "{campaign} - Kampagne bearbeiten"
+
+msgctxt "campaign/apply"
+msgid "Én is szeretnék gyűjteni"
+msgstr "Ich möchte auch sammeln"
+
+msgctxt "campaign/donation-form"
+msgid "Anonim támogatás"
+msgstr "@@Anonyme Spende@@"
+
+msgctxt "campaign/donation-form"
+msgid "Az adatkezelési és továbbítási nyilatkozatot elfogadom"
+msgstr "Ich akzeptiere die Auftragsdatenvereinbarung"
+
+msgctxt "campaign/donation-form"
+msgid "Egyszeri támogatás"
+msgstr "Einmalige Unterstützung"
+
+msgctxt "campaign/donation-form"
+msgid "Egyéb megjegyzés"
+msgstr "Anderer Kommentar"
+
+msgctxt "campaign/donation-form"
+msgid "Elfogadom a kártyaregisztrációs nyilatkozatot"
+msgstr "Ich akzeptiere die Kartenregistrierungserklärung"
+
+msgctxt "campaign/donation-form"
+msgid "Email címed"
+msgstr "Deine E-Mail Adresse"
+
+msgctxt "campaign/donation-form"
+msgid "Időnként szeretnék hírt kapni arról, hogy mihez kezdtek az adománnyal"
+msgstr "Von Zeit zu Zeit würde ich gerne Nachrichten darüber erhalten, was Sie mit der Spende gemacht haben"
+
+msgctxt "campaign/donation-form"
+msgid "Irányítószám"
+msgstr "Postleitzahl"
+
+msgctxt "campaign/donation-form"
+msgid "Kártyás fizetés"
+msgstr "Kartenzahlung"
+
+msgctxt "campaign/donation-form"
+msgid "Kérjük jelöld be, hogy elolvastad a nyilatkozatban foglaltakat"
+msgstr "Bestätige bitte, dass du die Erklärungen gelesen und verstanden hast!"
+
+msgctxt "campaign/donation-form"
+msgid "Ne jelenjen meg a nevem a támogatók között"
+msgstr ""
+
+msgctxt "campaign/donation-form"
+msgid "Neved"
+msgstr "Dein Name"
+
+msgctxt "campaign/donation-form"
+msgid "Rendszeres támogatás"
+msgstr "Regelmäßige Unterstützung"
+
+msgctxt "campaign/donation-form"
+msgid "SimplePay - Online bankkártyás fizetés"
+msgstr "SimplePay - Online-Kreditkartenzahlung"
+
+msgctxt "campaign/donation-form"
+msgid "SimplePay vásárlói tájékoztató"
+msgstr "SimplePay Kundeninformationen"
+
+msgctxt "campaign/donation-form"
+msgid "Támogass!"
+msgstr "Unterstütze uns!"
+
+msgctxt "campaign/donation-form"
+msgid "Támogatás"
+msgstr "Unterstützung"
+
+msgctxt "campaign/donation-form"
+msgid "Támogatás összege"
+msgstr "Höhe der Unterstützung"
+
+msgctxt "campaign/donation-form"
+msgid "Támogatás összege (forint)"
+msgstr "Höhe der Unterstützung (1 EUR ~ 350 HUF)"
+
+msgctxt "campaign/donation-form"
+msgid "Utca / Házszám"
+msgstr "Adresse"
+
+msgctxt "campaign/donation-form"
+msgid "Város"
+msgstr "Stadt"
+
+msgctxt "campaign/donation-form"
+msgid "egyéb összeg"
+msgstr "anderer Betrag"
+
+msgctxt "campaign/donation-form"
+msgid "mi ez?"
+msgstr "was ist das?"
+
+msgctxt "campaign/donation-form"
+msgid "Átutalás"
+msgstr "Überweisung"
+
+msgctxt "campaign/donation-form"
+msgid "Üzenet"
+msgstr "Nachricht"
+
+msgctxt "footer"
+msgid "+36 70 570 4950"
+msgstr "@@+36 70 570 4950@@"
+
+msgctxt "footer"
+msgid "3852 Hernádszentandrás, Táncsics út 91."
+msgstr "Táncsics str  91. 3852 Hernádszentandrás, Ungarn"
+
+msgctxt "footer"
+msgid "Adatkezelési tájékoztatók"
+msgstr "Datenverwaltungsinformationen"
+
+msgctxt "footer"
+msgid "Adószám: 19102382-1-05"
+msgstr "Steuernummer :  19102382-1-05"
+
+msgctxt "footer"
+msgid "Alapító okirat"
+msgstr "Gründungsvertrag"
+
+msgctxt "footer"
+msgid "Hivatalos dolgok"
+msgstr "Offizielle Dokumente"
+
+msgctxt "footer"
+msgid "IBAN: HU79116000060000000083572155"
+msgstr "IBAN: HU79116000060000000083572155"
+
+msgctxt "footer"
+msgid "InDaHouse Hungary Egyesület"
+msgstr "InDaHouse Hungary Verband"
+
+msgctxt "footer"
+msgid "Kapcsolat"
+msgstr "Kontakt"
+
+msgctxt "footer"
+msgid "Minden jog fenntartva - InDaHouse Hungary Egyesület"
+msgstr "Alle Rechte vorbehalten - InDaHouse Hungary Verband"
+
+msgctxt "footer"
+msgid "Számlaszám: 11600006-00000000-83572155"
+msgstr "Kontonummer : 11600006-00000000-83572155"
+
+msgctxt "footer"
+msgid "info@indahousehungary.hu"
+msgstr "info@indahousehungary.hu"
+
+msgctxt "footer"
+msgid "Éves pénzügyi beszámolók"
+msgstr "Jahresabschluss"
+
+msgctxt "footer"
+msgid "örök hála Dórinak, Jánosnak, Zsoltnak, Dávidnak és Zolinak"
+msgstr "ewiger Dank an Dóri, János, Zsolt, Dávid und Zoli"
+
+msgctxt "header"
+msgid "+36 70 570 4950"
+msgstr "@@+36 70 570 4950@@"
+
+msgctxt "header"
+msgid "info@indahousehungary.hu"
+msgstr "info@indahousehungary.hu"
+
+msgctxt "main-page"
+msgid "... boldogság"
+msgstr "... Glück"
+
+msgctxt "main-page"
+msgid "... kedvesek, és jól végzik a dolgukat"
+msgstr "... die sind nett und machen ihren Job gut"
+
+msgctxt "main-page"
+msgid "... mindig játszunk és le kell ülni a földre és elzsibbadok"
+msgstr "... vom vielen Spielen mit den Kindern auf dem Fußboden sind meine Füße eingeschlafen"
+
+msgctxt "main-page"
+msgid "... nincs rossz"
+msgstr "...  schlecht gibts nicht"
+
+msgctxt "main-page"
+msgid "... segítséget nyújtanak nekem"
+msgstr "... die helfen mir"
+
+msgctxt "main-page"
+msgid "...Vagy segíts online bárhonnan!"
+msgstr "... oder helfe online von überall aus!"
+
+msgctxt "main-page"
+msgid "A fejlesztést nem lehet elég korán kezdeni, mert a hátrányok is az első naptól kezdve halmozódnak. A koragyerekkoris önkénteseink házról házra járnak, hogy az 6 évesnél fiatalabb gyerekekkel játékosan tanulják a színeket, formákat, és a számokat."
+msgstr "Mit der Förderung benachteiligter Kinder kann nicht früh genug begonnen werden, deshalb gehen unsere freiwilligen Helfer von Haus zu Haus, um mit Kindern unter 6 Jahren spielerisch Farben, Formen und Zahlen zu lernen. Auch die Eltern werden indirekt Teil der Förderungen und lernen dabei neue Methoden."
+
+msgctxt "main-page"
+msgid "A feladatlap készítő önkénteseink gondoskodnak arról, hogy az InDaHouse-os gyerekek hétről-hétre személyre szabott feladatlapokon keresztül gyakorolhassák azt, ami nehezen megy az iskolában. Mottó: Messivel a matek is könnyebben megy!"
+msgstr "Unsere freiwilligen Nachhilfelehrer stellen sicher, dass Kinder mit InDaHouse durch wöchentliche individuelle Arbeitsblätter üben können, was in der Schule schwierig ist. Seien es Leseverstehen in der Muttersprache, Bruchrechnung, Geographie oder Fremdsprachen, unser Motto ist: Mit Messi geht alles einfacher!"
+
+msgctxt "main-page"
+msgid "A gyerekek iránti elköteleződésünket bizonyítja, hogy saját házat építettünk a programunk számára. Közel 20 hónapon át készült az InDaHouse Önkéntes- és Gyerekközpont Hernádszentandráson 600 önkéntes keze által, több, mint 1200 magánszemély és 20 vállalat adományaiból. A földszint helyiségeiben kapnak helyet a gyerekfoglalkozások, a tetőtérben pedig az önkéntesszállás."
+msgstr "Unser Engagement für Kinder zeigt sich auch darin, dass wir für unser Programm ein eigenes Haus gebaut haben. Fast 20 Monate lang wurde das InDaHouse Freiwilligen- und Kinderzentrum in Hernádszentandrás durch die Hände von 600 Freiwilligen gebaut, mit Spenden von mehr als 1.200 Einzelpersonen und 20 Firmen. Das Erdgeschoss wird für Kinderaktivitäten genutzt und das Dachgeschoss dient als Freiwilligenunterkunft."
+
+msgctxt "main-page"
+msgid "A hátrányokkal küzdő gyerekek helyzetének javítása hosszú folyamat. Mi ehhez adjuk az elköteleződésünket, de stabil anyagi háttérre van szükségünk, amit az ad hoc pályázatok nem biztosítanak. Ezért olyan cégeket és magánszemélyeket keresünk, akik nyitottak az akár éveken át tartó támogatásra, együttműködésre."
+msgstr "Die Verbesserung der Situation von benachteiligten Kindern ist ein langer Prozess. Wir fühlen uns dazu verpflichtet, aber wir brauchen eine stabile finanzielle Basis, die Ad-hoc-Ausschreibungen nicht bieten. Wir suchen Unternehmen und Einzelpersonen die, am Besten über Jahre hinweg, mit uns zusammenarbeiten wollen und uns unterstützen."
+
+msgctxt "main-page"
+msgid "A házunkban, és a kertünkben mindig szivesen látjuk a csapatépítésre érkező vállalatokat."
+msgstr "Unternehmen sind bei uns im Haus und Garten zum Teambuilding immer willkommen."
+
+msgctxt "main-page"
+msgid "Aktuális gyűjtéseink"
+msgstr "Mehr"
+
+msgctxt "main-page"
+msgid "Anyagi támogatás"
+msgstr "Finanzielle Hilfe"
+
+msgctxt "main-page"
+msgid "Az InDaHouse Hungary Egyesület önkéntesei borsodi falvakban élő,\n                    hátrányos helyzetű gyerekeknek tartanak egyéni és csoportos fejlesztő\n                    foglalkozásokat heti rendszerességgel. Célunk, hogy a hozzánk járó\n                    gyerekek önmegvalósító, felelős, a saját sorsukat irányító felnőttekké\n                    váljanak, akik a tőlünk kapott támogatást be tudják építeni a gyermekeik nevelésébe."
+msgstr "Freiwillige Mitarbeiter des Vereins InDaHouse Hungary halten wöchentlich Einzel- und Gruppenentwicklungssitzungen  \n für benachteiligte Kinder, die in Dörfern in Borsod leben. Unser Ziel ist es den Kindern, \n die zu uns kommen zu helfen, selbstbewusste und verantwortungsvolle Erwachsene zu werden. \nSie sollen ihr Schicksal selbst in die Hand nehmen und die Unterstützung, die sie von uns erhalten,  \nin die Erziehung ihrer Kinder einfließen lassen können."
+
+msgctxt "main-page"
+msgid "Az InDaHouse Hungary Egyesület önkéntesei borsodi falvakban élő,\n            hátrányos helyzetű gyerekeknek tartanak egyéni és csoportos fejlesztő\n            foglalkozásokat heti rendszerességgel. Célunk, hogy a hozzánk járó\n            gyerekek önmegvalósító, felelős, a saját sorsukat irányító felnőttekké\n            váljanak, akik a tőlünk kapott támogatást be tudják építeni a gyermekeik nevelésébe."
+msgstr "Freiwillige Mitarbeiter des Vereins InDaHouse Hungary halten wöchentlich Einzel- und Gruppenentwicklungssitzungen  \n für benachteiligte Kinder, die in Dörfern in Borsod leben. Unser Ziel ist es den Kindern, \n die zu uns kommen zu helfen, selbstbewusste und verantwortungsvolle Erwachsene zu werden. \nSie sollen ihr Schicksal selbst in die Hand nehmen und die Unterstützung, die sie von uns erhalten,  \nin die Erziehung ihrer Kinder einfließen lassen können."
+
+msgctxt "main-page"
+msgid "Az InDaHouse nekem..."
+msgstr "InDaHouse für mich ist ..."
+
+msgctxt "main-page"
+msgid "Az InDaHouse-ban az a jó, hogy..."
+msgstr "Das Gute an InDaHouse ist, dass ..."
+
+msgctxt "main-page"
+msgid "Az InDaHouse-ban az a rossz, hogy..."
+msgstr "Das Schlechte an InDaHouse ist, dass ..."
+
+msgctxt "main-page"
+msgid "Az InDaHouse-os gyerek mindig számíthat a mentorára, aki figyelemmel kíséri tanodai és iskolai előrehaladását, kapcsolatot tart a feladatlap készítővel, az iskolával, a családdal. És ami a legfontosabb, odafigyel a gyerek testi-lelki-szellemi fejlődésére."
+msgstr "Ein \"InDaHouse-Kind\" kann immer auf einen Mentor zählen, der seine Fortschritte in der Schule und in der Ausbildung begleitet und den Kontakt mit dem Betreuer, der Schule und der Familie hält. Und, was am wichtigsten ist, er oder sie wird auf die körperliche, geistige und seelische Entwicklung des Kindes achten."
+
+msgctxt "main-page"
+msgid "Az éves költségvetésünk 25 millió forint, előteremtéséhez különleges ötletekre és megoldásokra is szükségünk van. Az InDaFundraiser-ek olyan tettre kész, kreatív, elkötelezett önkéntesek, akiknek fontos az InDaHouse ügye és fenntarthatósága, ezért adománygyűjtő kampányokat valósítanak meg."
+msgstr "ir haben ein jährliches Budget von 45 Millionen Forint (etwa 125.000 EUR) und wir brauchen einige besondere Ideen und Lösungen, um es zu produzieren. InDaFundraiser sind kreative, engagierte Ehrenamtliche, denen das Engagement von InDaHouse am Herzen liegt und die deshalb unterschiedliche Fundraising-Aktionen durchführen."
+
+msgctxt "main-page"
+msgid "Csatlakozom"
+msgstr "Mitmachen"
+
+msgctxt "main-page"
+msgid "Cégeknek"
+msgstr "Für Unternehmen"
+
+msgctxt "main-page"
+msgid "Célunk a gyerekek oktatása, ezt tekintjük a társadalmi problémák megoldásának, ezért a foglalkozásainkhoz szükséges fejlesztő eszközök kivételével adományokat csak meghatározott esetekben fogadunk: tavasszal és ősszel ruhákat, augusztusban tanszereket, decemberben karácsonyi ajándékokat."
+msgstr "Unser Ziel ist es, Kinder zu erziehen. Wir betrachten dies als Lösung für soziale Probleme. Deswegen akzeptieren wir materielle Spende mit Ausnahme der für unsere Sitzungen erforderlichen Entwicklungsinstrumente nur in bestimmten Fällen: Kleidung im Frühjahr und Herbst, Schulmaterial im August, Weihnachtsgeschenke im Dezember."
+
+msgctxt "main-page"
+msgid "Egy InDahouse-os hétvégén 15 önkéntes 150 gyereknek tart személyre szabott fejlesztő foglalkozásokat Hernádszentandráson és környékén. Az InDaHouse havi működési költsége három és fél millió forint, amit adományokból tudunk előteremteni. A gyerekek jövője közös felelősségünk, ehhez kérjük a segítségedet."
+msgstr "An einem InDaHouse-Wochenende sorgen mindestens 15 motivierte Ehrenamtliche für die Förderstunden von 150 Kindern. Die monatlichen Betriebskosten betragen 3,5 Millionen Forint (ca. 10000 EUR). Die Summe wird Großteils aus Spenden gesammelt. Wir tragen gemeinsam Verantwortung für die Zukunft der Kinder. Hilf uns dabei!"
+
+msgctxt "main-page"
+msgid "Ezzel tudok segíteni"
+msgstr "Spenden"
+
+msgctxt "main-page"
+msgid "Fejleszd a legkisebbeket"
+msgstr "Fördert die Kleinen"
+
+msgctxt "main-page"
+msgid "Gyerekszáj"
+msgstr "Kindermund"
+
+msgctxt "main-page"
+msgid "Gyűjts nekünk"
+msgstr "Sammel für uns"
+
+msgctxt "main-page"
+msgid "Hetente tartunk személyre szabott iskola előkészítő és készségfejlesztő foglalkozásokat 6 -16 éves gyerekeknek, akik számára felbecsülhetetlen az a koncentrált figyelem és bátorítás,amit a tanodai önkénteseinktől kapnak. A törtek osztása csak ráadás :)"
+msgstr "Wir veranstalten wöchentlich individuelle Schulvorbereitungs- und Kompetenzentwicklungssitzungen für die Kinder im Alter von 6 bis 16 Jahren. Die gezielte Aufmerksamkeit und Ermutigung hat einen unschätzbaren Wert, die sie von unseren Freiwilligen erhalten. Das Teilen von Brüchen ist nur eine Ergänzung :)"
+
+msgctxt "main-page"
+msgid "Hogy működik?"
+msgstr "Wie funktioniert es?"
+
+msgctxt "main-page"
+msgid "Ismerj meg minket"
+msgstr "Lerne uns kennen"
+
+msgctxt "main-page"
+msgid "Kapcsolatfelvétel"
+msgstr "Kontakt"
+
+msgctxt "main-page"
+msgid "Készíts feladatlapokat"
+msgstr "Erstelle Arbeitsblätter"
+
+msgctxt "main-page"
+msgid "Külföldön élsz, vagy nem tudod egy egész hétvégére otthon hagyni a családod? Tarts foglalkozást Skype-on keresztül!"
+msgstr "Lebst du im Ausland oder kannst du deine Familie nicht für ein ganzes Wochenende zu Hause lassen? Halte ein Skype-Meeting!"
+
+msgctxt "main-page"
+msgid "Legyél mentor"
+msgstr "Werde Mentor"
+
+msgctxt "main-page"
+msgid "Légy InDaHouse önkéntes!"
+msgstr "Sei InDaHouse-Freiwilliger!"
+
+msgctxt "main-page"
+msgid "Minden mosolynak kell egy hely"
+msgstr "Jedes Lächeln braucht einen Platz"
+
+msgctxt "main-page"
+msgid "Nézd meg hogy épült"
+msgstr "Schau mal, wie es gebaut wurde"
+
+msgctxt "main-page"
+msgid "Rólunk"
+msgstr "Über uns"
+
+msgctxt "main-page"
+msgid "Tanodázz a gyerekekkel"
+msgstr "Lerne mit den Kindern"
+
+msgctxt "main-page"
+msgid "Támogass minket és segíts a gyerekeknek"
+msgstr "Unterstütze uns und hilf den Kindern"
+
+msgctxt "main-page"
+msgid "Támogatom"
+msgstr "Spenden"
+
+msgctxt "main-page"
+msgid "Támogatóink"
+msgstr "Unsere Unterstützer"
+
+msgctxt "main-page"
+msgid "Tárgyi adományok"
+msgstr "Materielle Spenden"
+
+msgctxt "main-page"
+msgid "Többet akarok tudni"
+msgstr "Mehr"
+
+msgctxt "main-page"
+msgid "Önkéntes munkával a Borsodban élő gyerekek egyenlő esélyeiért"
+msgstr "Freiwilligenarbeit für Chancengleichheit für Kinder aus Borsod"
+
+msgctxt "post"
+msgid "Hiba történt az előnézet betöltése közben"
+msgstr "Beim Laden der Vorschau ist ein Fehler aufgetreten"
+
+msgctxt "post"
+msgid "Nincs ilyen bejegyzés"
+msgstr "Eintrag fehlt"
+
+msgctxt "post"
+msgid "Nincs ilyen kategória"
+msgstr "Kategorie fehlt"
+
+msgctxt "user"
+msgid "A folytatáshoz kérjük jelentkezz be"
+msgstr "Bitte logge dich ein um fortzufahren"
+
+msgctxt "user"
+msgid "Add meg a regisztrációkor használt e-mail címed"
+msgstr "Gib deine E-Mail-Adresse ein, mit der du dich registriert hast"
+
+msgctxt "user"
+msgid "Alapadatok"
+msgstr "Stammdaten"
+
+msgctxt "user"
+msgid "Az aktiválás sikertelen volt. Lehet, hogy már korábban aktiváltad a fiókodat"
+msgstr "Aktivierung fehlgeschlagen. Möglicherweise hast du dein Konto bereits aktiviert"
+
+msgctxt "user"
+msgid "Bejelentkezés"
+msgstr "Login"
+
+msgctxt "user"
+msgid "Elfelejtett jelszó"
+msgstr "Passwort vergessen"
+
+msgctxt "user"
+msgid "Elküld"
+msgstr "Senden"
+
+msgctxt "user"
+msgid "Ellenőrző kód"
+msgstr "Verifizierungs-Schlüssel"
+
+msgctxt "user"
+msgid "Elolvastam, és elfogadom az <a href=\"{url}\">adatvédelmi szabályzatot</a>"
+msgstr "Ich habe die <a href=\"{url}\"> Datenschutzrichtlinie </a> gelesen und bin damit einverstanden"
+
+msgctxt "user"
+msgid "Email cím"
+msgstr "E-Mail-Addresse"
+
+msgctxt "user"
+msgid "Hagyd üresen, ha nem akarod módosítani"
+msgstr "Lass es leer falls du hier nichts ändern willst"
+
+msgctxt "user"
+msgid "Jegyezze meg"
+msgstr "Bitte beachte"
+
+msgctxt "user"
+msgid "Jelszó"
+msgstr "Passwort"
+
+msgctxt "user"
+msgid "Jelszó (újra)"
+msgstr "Passwort (Wiederholung)"
+
+msgctxt "user"
+msgid "Jelszó módosítása"
+msgstr "Passwort ändern"
+
+msgctxt "user"
+msgid "Kampányaim"
+msgstr "Meine Kampagnen"
+
+msgctxt "user"
+msgid "Keresztnév"
+msgstr "Vorname"
+
+msgctxt "user"
+msgid "Kijelentkezés"
+msgstr "Abmelden"
+
+msgctxt "user"
+msgid "Másold az alábbi mezőbe az e-mailben kapott ellenőrzőkódot"
+msgstr "Kopiere deinen Verifizierungscode, den du per E-Mail erhalten hast, in das untenstehende Feld"
+
+msgctxt "user"
+msgid "Nem sikerült módosítani a profilod"
+msgstr "Dein Profil konnte nicht geändert werden"
+
+msgctxt "user"
+msgid "Profil"
+msgstr "Profil"
+
+msgctxt "user"
+msgid "Regisztráció"
+msgstr "Registrierung"
+
+msgctxt "user"
+msgid "Regisztrációd aktiválásához kattints az emailben küldött linkre!"
+msgstr "Um deine Registrierung zu aktivieren, klicke auf den Link, den du per E-Mail erhalten hast!"
+
+msgctxt "user"
+msgid "Rendszeres adományaim"
+msgstr "Meine regelmäßigen Spenden"
+
+msgctxt "user"
+msgid "Sikeres regisztráció!"
+msgstr "Registrierung erfolgreich!"
+
+msgctxt "user"
+msgid "Sikeresen módosítottad a profilod"
+msgstr "Du hast dein Profil erfolgreich geändert"
+
+msgctxt "user"
+msgid "Sikertelen aktiválás"
+msgstr "Aktivierung fehlgeschlagen"
+
+msgctxt "user"
+msgid "Telefonszám"
+msgstr "Telefonnummer"
+
+msgctxt "user"
+msgid "Vezetéknév"
+msgstr "Nachname"
+
+msgctxt "user"
+msgid "{social} bejelentkezés"
+msgstr "{social} Anmeldung"
+
+msgctxt "user"
+msgid "Új jelszó"
+msgstr "Neues Passwort"
+
+msgctxt "user"
+msgid "Új jelszó (újra)"
+msgstr "Neues Passwort (Wiederholung)"
+
+msgctxt "user"
+msgid "Új jelszó megadása"
+msgstr "Gib ein neues Passwort ein"
+

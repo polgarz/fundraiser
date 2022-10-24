@@ -1,0 +1,77 @@
+.donate-form-widget {
+
+    background: rgb(152,33,26);
+    background: linear-gradient(-45deg, rgba(152,33,26,1) 0%, rgba(231,62,51,1) 100%);
+
+    input[type=text], input[type=email], input[type=number], textarea {
+        background: rgba(255,255,255,0.35);
+        color: white;
+        border: 0;
+        border-radius: 0;
+    }
+
+    h3 {
+        padding: 1.4rem 1.4rem 0.5rem 1.4rem;
+        color: white;
+    }
+
+    form {
+        margin: 0 1.4rem;
+    }
+
+    label {
+        font-size: 0.75rem;
+        color: white;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: -4px;
+        opacity: .8;
+    }
+
+    .form-group {
+        margin-bottom: 0.4rem;
+    }
+
+    hr {
+        background-color: white;
+    }
+
+    .form-check-label {
+        color: white;
+        text-transform: none;
+    }
+
+    .form-check-label {
+        opacity: 1;
+    }
+
+    p.submit {
+        margin: 0;
+
+        input {
+            background-color: white;
+            color: theme-color(primary);
+            border: none;
+            font-size: 0.9rem;
+        }
+    }
+
+    .form-check-label a {
+        color: white;
+        text-decoration: underline;
+    }
+
+
+    .simple-logo {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-btns {
+        width: 100%;
+    }
+
+    .invalid-feedback {
+        color: yellow;
+    }
+}

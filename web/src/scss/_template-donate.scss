@@ -1,0 +1,88 @@
+.campaign {
+    border-bottom: 3px solid theme-color(primary);
+    -webkit-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.12);
+
+    .cover * {
+        position: relative;
+    }
+
+    .cover {
+        position: relative;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    // Example usage:
+    @include media-breakpoint-up(md) {
+        .cover {
+            min-height: 270px;
+        }
+    }
+
+    .cover:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        background: -webkit-linear-gradient(90deg, rgba(152,33,26,0.7) 0%, rgba(152,33,26,0.1) 100%);
+        background: linear-gradient(90deg, rgba(152,33,26,0.7) 0%, rgba(152,33,26,0.1) 100%);
+        z-index: 88;
+    }
+
+    p {
+        color: white;
+        width: 65%;
+        line-height: 1.4rem;
+        font-size: 1rem;
+        z-index: 99;
+        font-weight: 300;
+    }
+
+    @include media-breakpoint-down(md) {
+        p {
+            width: 80%;
+        }
+    }
+
+    h3 {
+        color: white;
+        font-size: 1.8rem;
+        z-index: 99;
+    }
+
+    .btn-white {
+        z-index: 99;
+    }
+}
+
+.birthday-promo {
+    min-height: 300px;
+    background-image: url('/dist/img/gift-girl.jpg');
+    background-size: cover;
+    background-position: center;
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        width: 60%;
+        font-size: 0.92rem;
+        opacity: .8;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .birthday-promo {
+        background-image: url('/dist/img/gift-girl-m.jpg');
+        background-position: right;
+    }
+}
