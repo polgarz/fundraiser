@@ -72,11 +72,16 @@ AppAsset::register($this);
 
             <hr />
 
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="small">
                         &copy; <?= date('Y') ?> <?= Yii::t('footer', 'Minden jog fenntartva') ?> - <?= Yii::$app->name ?>
                     </div>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="https://www.buymeacoffee.com/polgarz" target="_blank">
+                        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-white.png" alt="Buy Me A Coffee" style="height: 40px !important;">
+                    </a>
                 </div>
             </div>
         </section>
