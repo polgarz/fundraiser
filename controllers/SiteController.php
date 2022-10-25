@@ -2,11 +2,14 @@
 
 namespace app\controllers;
 
+use app\models\campaign\Campaign;
+use app\models\donation\DonationForm;
 use app\models\user\User;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
+use yii\helpers\ArrayHelper;
 
 class SiteController extends Controller
 {
@@ -55,7 +58,21 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $donationFormModel = new DonationForm();
+        $campaigns = Campaign::find()
+            ->where(['archive' => 0, 'status' => Campaign::STATUS_PUBLIC, 'highlighted' => 0])
+            ->orderBy('created_at DESC')
+            ->all();
+
+
+        if ($donationFormModel->load(Yii::$app->request->post()) && $donationFormModel->save()) {
+            return $this->redirect(['donate/donate', 'hash' => $donationFormModel->hash]);
+        }
+
+        return $this->render('index', [
+            'donationFormModel' => $donationFormModel,
+            'campaigns' => $campaigns,
+        ]);
     }
 
     /**

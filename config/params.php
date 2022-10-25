@@ -12,4 +12,9 @@ return [
         'key' => '',
         'list_id' => '',
     ],
+    'transfer' => [
+        'name' => 'Valami',
+        'bank_account_nr' => '11111-1111-1111',
+        'bank_name' => 'Erste',
+    ]
 ];

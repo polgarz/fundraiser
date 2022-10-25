@@ -30,38 +30,31 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:wght@300;400;600&family=Oswald:wght@400;500&display=swap" as="style">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:wght@300;400;600&family=Oswald:wght@400;500&display=swap">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:wght@300;400;600&family=Montserrat:wght@400;500&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:wght@300;400;600&family=Montserrat:wght@400;500&display=swap">
 </head>
 <body>
 <?php $this->beginBody() ?>
-    <nav class="navbar navbar-expand navbar-dark upper-nav">
-        <div class="upper-nav-wrapper d-flex justify-content-end mx-auto">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="<?= Url::to(['user/profile']) ?>" class="nav-link navbar-icon user mr-3"></a>
-                </li>
-                <?= LanguagePicker::widget([
-                    'itemTemplate' => '<a class="dropdown-item" href="{link}">{name}</a>',
-                    'activeItemTemplate' => '<a href="{link}" class="nav-link dropdown-toggle p-0" title="{language}"><i class="{language}"></i> {name}</a>',
-                    'parentTemplate' => '<li class="nav-link p-0 dropdown">{activeItem}<div class="dropdown-menu">{items}</div></li>',
-                ]) ?>
-            </ul>
-        </div>
-    </nav>
-
-    <nav class="main-nav navbar navbar-expand-sm navbar-light bg-white d-flex sticky-top justify-content-end">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Menü">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="main-nav-wrapper d-flex justify-content-sm-start">
-            <a href="<?= Yii::$app->homeUrl ?>" class="position-fixed logo">
-                <img src="/dist/svg/logo.svg" alt="Fundraiser">
+    <nav class="main-nav navbar navbar-expand-sm navbar-light bg-white d-flex sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="<?= Yii::$app->homeUrl ?>">
+                <img src="/dist/svg/logo.svg" height="30" class="d-inline-block align-top mr-1" alt="<?= Yii::$app->name ?>" />
             </a>
 
-            <div id="navbarToggler" class="collapse navbar-collapse pl-sm-8">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Menü">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div id="navbarToggler" class="collapse navbar-collapse d-flex justify-content-between">
+                <ul class="navbar-nav">
+                </ul>
+                <ul class="navbar-nav">
+                    <?= LanguagePicker::widget([
+                        'itemTemplate' => '<a class="dropdown-item" href="{link}">{name}</a>',
+                        'activeItemTemplate' => '<a href="{link}" class="nav-link dropdown-toggle p-0" title="{language}"><i class="{language}"></i> {name}</a>',
+                        'parentTemplate' => '<li class="nav-link dropdown">{activeItem}<div class="dropdown-menu">{items}</div></li>',
+                    ]) ?>
+                </ul>
             </div>
         </div>
     </nav>
@@ -75,23 +68,21 @@ AppAsset::register($this);
         <?= $content ?>
     </div>
     <footer>
-        <section class="center-section mx-auto py-5">
-            <div class="row p-0 m-0 text-center">
-                <div class="col-md-6">
-                    <h5 class="text-uppercase mb-3"><?= Yii::t('footer', 'Kapcsolat') ?></h5>
+        <section class="py-5 container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="text-uppercase mb-3"><?= Yii::t('footer', 'Információk') ?></h5>
                     <ul class="list-unstyled">
-                        <li><strong><?= Yii::t('footer', 'Fundraiser') ?></strong></li>
+                        <li><a href="#">Adatvédelmi nyilatkozat</a></li>
                     </ul>
-                </div>
-                <div class="col-md-6">
                 </div>
             </div>
 
             <hr />
 
-            <div class="row m-0">
+            <div class="row">
                 <div class="col-md-6">
-                    <div class="small px-3">
+                    <div class="small">
                         &copy; <?= date('Y') ?> <?= Yii::t('footer', 'Minden jog fenntartva') ?> - <?= Yii::$app->name ?>
                     </div>
                 </div>

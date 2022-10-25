@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Url;
 ?>
-<section class="bg-gradient campaign-volunteers-section text-left py-5">
+<section class="bg-gradient campaign-volunteers-section text-left">
     <div class="center-section mx-auto">
         <div class="birthday-promo" style="background-image: url(<?= $model->getBehavior('highlight')->getThumbUploadUrl('highlight_image', 'main') ?>)">
             <div class="p-4">

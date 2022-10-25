@@ -17,18 +17,6 @@ $this->title = Yii::t('campaign/apply', '{campaign} - jelentkezés nagykövetnek
 
         <p><strong><?= Yii::t('campaign/apply', 'Köszönjük, hogy jelentkezel nagykövetnek!') ?></strong></p>
 
-        <p>
-            <?= Yii::t('campaign/apply', 'Ennek az űrlapnak a kitöltésével arra vállalkozol, hogy belefogsz egy aktív kampányba, amelynek során megkéred az ismerőseidet, hogy adakozzanak az InDaHouse javára. Ehhez találnod kell egy hozzád illő kihívást (minden nap jógázol, főzöl, vagy kipróbálsz valami újat, stb.), amiről posztolsz a Facebook oldaladon, így hívva fel a figyelmet a gyűjtésedre. Mi az, amit már régóta halogatsz? Vágj bele most egy jó ügyért!') ?>
-        </p>
-
-        <p>
-            <?= Yii::t('campaign/apply', 'Amennyiben olyan kampányra jelentkezel, ahol a kihívás adott (Társasmaraton, Túramaraton), ott arra kérünk, hogy a kampányod teljes szövegénél a konkrét vállalásod írd le, pl. hogy hány órát fogtok társasozni, vagy hogy hány kilométert vagy mennyi időt fogtok túrázni.') ?>
-        </p>
-
-        <p>
-            <?= Yii::t('campaign/apply', 'Sosem csináltál még ilyet? Ne aggódj, szerencsére nekünk van már ebben tapasztalatunk. Az elmúlt évek során több mint 170 követ gyűjtött már nekünk, összesen közel 18 millió forintot. A kampányod alatt végig számíthatsz a támogatásunkra! A jelentkezés után elküldjük az adománygyűjtő kisokosunkat, a gyűjtés alatt pedig a követeknek létrehozott csoportban kérdezhettek tőlünk, és egymással is megoszthatjátok a tapasztalataitokat.') ?>
-        </p>
-
         <p><?= Yii::t('campaign/apply', 'Ne feledd! Kampányodat bármikor módosíthatod a <a href="{url}">profil oldaladon</a>', ['url' => Url::to(['user/profile'])]) ?></p>
 
         <hr />
@@ -58,14 +46,6 @@ $this->title = Yii::t('campaign/apply', '{campaign} - jelentkezés nagykövetnek
         <?= $form->field($applyForm, 'image', ['labelOptions' => ['class' => 'font-weight-bold']])->fileInput()->hint(Yii::t('campaign/apply', 'Válassz egy jó minőségű képet magadról, ami megjelenik majd a gyűjtesednél. A képnek jpg vagy png formátumúnak kell lennie, és nem lehet nagyobb mint 14 mb')) ?>
 
         <?= $form->field($applyForm, 'content', ['labelOptions' => ['class' => 'font-weight-bold']])->textArea(['rows' => 15])->hint(Yii::t('campaign/apply', 'Hosszú leírása annak, hogy miért szeretnél nekünk gyűjteni (bármilyen hosszú lehet)')) ?>
-
-        <div class="row">
-            <div class="col-md-7">
-                <?= $form->field($applyForm, 'address', ['labelOptions' => ['class' => 'font-weight-bold']])->hint(Yii::t('campaign/apply', 'Szeretnénk neked köszönetképpen egy apró ajándékot küldeni (pl. InDaHouse-os pólót), ehhez kell a címed.')) ?>
-            </div>
-        </div>
-
-        <?= $form->field($applyForm, 'commitment', ['labelOptions' => ['class' => 'font-weight-bold']]) ?>
 
         <?= $form->field($applyForm, 'privacy')->checkbox()->label(Yii::t('campaign/apply', '<strong>Az <a href="{url}">adatvédelmi tájékoztatót</a> elolvastam, megértettem, és elfogadom az abban foglaltakat</strong>', ['url' => '/adatvedelem'])) ?>
 

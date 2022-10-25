@@ -154,7 +154,7 @@ if ($model->og_description) {
                                 <div class="mt-4">
                                     <div class="text-primary"><strong><?= Yii::t('campaign', 'Köszönjük a segítséget!') ?></strong></div>
                                     <div>
-                                        <?= Yii::t('campaign', 'A InDaHouse havi működési költsége ötmillió forint. Ebből 230 Borsodban élő gyereknek tartunk személyre szabott fejlesztést hétről hétre.') ?>
+
                                     </div>
                                 </div>
                             </div>

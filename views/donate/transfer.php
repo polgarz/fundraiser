@@ -26,8 +26,8 @@ $this->registerJs("
 
                 <p>
                     <strong>Az adományozáshoz szükséges adatok:</strong><br />
-                    <strong>Név: </strong> InDaHouse Hungary Egyesület<br />
-                    <strong>Számlaszám: </strong> 11600006-00000000-83572155 (Erste Bank)
+                    <strong>Név: </strong> <?= Yii::$app->params['transfer']['name'] ?><br />
+                    <strong>Számlaszám: </strong> <?= Yii::$app->params['transfer']['bank_account_nr'] ?> (<?= Yii::$app->params['transfer']['bank_name'] ?>)
                     <br />
                     A közlemény mezőbe a következő kódot írd: #<?= $model->id ?>
                 </p>

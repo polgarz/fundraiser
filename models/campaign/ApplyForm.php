@@ -20,8 +20,6 @@ class ApplyForm extends Model
     public $content;
     public $privacy;
     public $address;
-    public $tshirt_size;
-    public $commitment;
 
     /**
      * @var \common\models\campaign\Campaign
@@ -47,7 +45,6 @@ class ApplyForm extends Model
         return [
             [['lead', 'goal', 'content', 'name'], 'required'],
             [['lead'], 'string', 'max' => 140],
-            [['tshirt_size', 'address', 'commitment'], 'string', 'max' => 255],
             [['name'], 'string', 'max' => 35],
             [['name'], function($attribute, $params) {
                 if (CampaignAmbassador::findOne(['campaign_id' => $this->_campaign->id, 'slug' => Inflector::slug($this->$attribute)])) {
@@ -70,9 +67,6 @@ class ApplyForm extends Model
             'image' => Yii::t('campaign/ambassador', 'Kép a kampányodhoz'),
             'goal' => Yii::t('campaign/ambassador', 'Célösszeg'),
             'content' => Yii::t('campaign/ambassador', 'Kampányod teljes szövege'),
-            'address' => Yii::t('campaign/ambassador', 'Levelezési címed'),
-            'tshirt_size' => Yii::t('campaign/ambassador', 'Pólóméreted'),
-            'commitment' => Yii::t('campaign/ambassador', 'Vállalásod'),
         ];
     }
 
@@ -90,10 +84,7 @@ class ApplyForm extends Model
             'goal' => Html::encode($this->goal),
             'user_id' => Yii::$app->user->id,
             'slug' => Inflector::slug($this->name),
-            'address' => Html::encode($this->address),
-            'tshirt_size' => Html::encode($this->tshirt_size),
             'image' => UploadedFile::getInstance($this, 'image'),
-            'commitment' => Html::encode($this->commitment),
             'approved' => 0,
             ]);
 

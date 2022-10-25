@@ -7,7 +7,6 @@ use app\models\campaign\Campaign;
 use app\models\campaign\ApplyForm;
 use app\models\campaign\CampaignAmbassador;
 use app\models\campaign\UpdateAmbassadorCampaignForm;
-use app\models\donation\Donation;
 use app\models\donation\DonationForm;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
