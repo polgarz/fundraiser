@@ -34,11 +34,13 @@
         "znagy/yii2-simplepay-v2": "dev-master",
         "kartik-v/yii2-date-range": "dev-master",
         "drewm/mailchimp-api": "*",
-        "lajax/yii2-language-picker": "1.*"
+        "lajax/yii2-language-picker": "1.*",
+        "vlucas/phpdotenv": "^5.5"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
-        "yiisoft/yii2-gii": "~2.1.0"
+        "yiisoft/yii2-gii": "~2.1.0",
+        "symfony/var-dumper": "^5.4"
     },
     "config": {
         "process-timeout": 1800,

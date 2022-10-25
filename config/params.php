@@ -3,18 +3,18 @@
 return [
     'bsVersion' => '4.x',
     'tinymceApiKey' => '',
-    'senderEmail' => 'mail@example.hu',
-    'senderName' => 'Example',
+    'senderEmail' => $_ENV['DEFAULT_SENDER_EMAIL'],
+    'senderName' => $_ENV['DEFAULT_SENDER_NAME'],
     'campaignNotificationRecipients' => [
-        ['mail@examle.com' => 'Example'],
+        [$_ENV['NEW_CAMPAIGN_NOTIFICATION_EMAIL'] => $_ENV['NEW_CAMPAIGN_NOTIFICATION_NAME']],
     ],
     'mailchimp' => [
-        'key' => '',
-        'list_id' => '',
+        'key' => $_ENV['MAILCHIMP_KEY'],
+        'list_id' => $_ENV['MAILCHIMP_LIST_ID'],
     ],
     'transfer' => [
-        'name' => 'Valami',
-        'bank_account_nr' => '11111-1111-1111',
-        'bank_name' => 'Erste',
+        'name' => $_ENV['TRANSFER_NAME'],
+        'bank_account_nr' => $_ENV['TRANSFER_BANK_ACCOUNT_NR'],
+        'bank_name' => $_ENV['TRANSFER_BANK_NAME'],
     ]
 ];

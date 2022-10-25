@@ -10,7 +10,7 @@ $simplePay = require __DIR__ . '/simplepay.php';
 
 $config = [
     'id' => 'basic',
-    'name' => 'Fundraiser',
+    'name' => $_ENV['APP_NAME'],
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'languagepicker'],
     'sourceLanguage' => 'hu-HU',
@@ -48,13 +48,13 @@ $config = [
             'clients' => [
                 'google' => [
                     'class' => 'yii\authclient\clients\Google',
-                    'clientId' => '',
-                    'clientSecret' => '',
+                    'clientId' => $_ENV['GOOGLE_LOGIN_CLIENT_ID'],
+                    'clientSecret' => $_ENV['GOOGLE_LOGIN_CLIENT_SECRET'],
                 ],
                 'facebook' => [
                     'class' => 'yii\authclient\clients\Facebook',
-                    'clientId' => '',
-                    'clientSecret' => '',
+                    'clientId' => $_ENV['FACEBOOK_LOGIN_CLIENT_ID'],
+                    'clientSecret' => $_ENV['FACEBOOK_LOGIN_CLIENT_SECRET'],
                 ],
             ],
         ],
@@ -84,8 +84,8 @@ $config = [
         ],
         'reCaptcha3' => [
             'class'      => 'kekaadrenalin\recaptcha3\ReCaptcha',
-            'site_key'   => '',
-            'secret_key' => '',
+            'site_key'   => $_ENV['RECAPTCHA_SITE_KEY'],
+            'secret_key' => $_ENV['RECAPTCHA_SECRET_KEY'],
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',

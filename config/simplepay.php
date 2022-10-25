@@ -3,8 +3,8 @@
 return [
     'class' => 'znagy\SimplePayV2\SimplePayV2',
     'sdkConfig' => [
-        'HUF_MERCHANT' => '',
-        'HUF_SECRET_KEY' => '',
+        'HUF_MERCHANT' => $_ENV['SIMPLEPAY_MERCHANT_ID'],
+        'HUF_SECRET_KEY' => $_ENV['SIMPLEPAY_SECRET_KEY'],
         'SANDBOX' => YII_ENV === 'dev',
         'URL' => ['donate/status'],
         'LOGGER' => true,
