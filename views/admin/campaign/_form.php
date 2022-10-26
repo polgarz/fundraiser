@@ -82,7 +82,6 @@ if ($model->isNewRecord) {
                             'accept' => 'image/*',
                         ],
                         'pluginOptions' => [
-                            'theme' => 'explorer-fa',
                             'initialPreview' => [$model->getBehavior('highlight')->getUploadUrl('highlight_image')],
                             'deleteUrl' => Url::to(['delete-highlight-image', 'id' => $model->id]),
                             'initialPreviewAsData' => true,
@@ -161,7 +160,6 @@ if ($model->isNewRecord) {
                     'accept' => 'image/*',
                 ],
                 'pluginOptions' => [
-                    'theme' => 'explorer-fa',
                     'initialPreview' => [$model->getBehavior('cover')->getUploadUrl('cover_image')],
                     'deleteUrl' => Url::to(['delete-cover-image', 'id' => $model->id]),
                     'initialPreviewAsData' => true,
@@ -206,7 +204,6 @@ if ($model->isNewRecord) {
                             'accept' => 'image/*',
                         ],
                         'pluginOptions' => [
-                            'theme' => 'explorer-fa',
                             'initialPreview' => [$model->getBehavior('og')->getUploadUrl('og_image')],
                             'deleteUrl' => Url::to(['delete-og-image', 'id' => $model->id]),
                             'initialPreviewAsData' => true,

@@ -38,7 +38,6 @@ use yii\helpers\Url;
                     'accept' => 'image/*',
                 ],
                 'pluginOptions' => [
-                    'theme' => 'explorer-fa',
                     'initialPreview' => [$model->getUploadUrl('image')],
                     'deleteUrl' => Url::to(['delete-image', 'id' => $model->id]),
                     'initialPreviewAsData' => true,
