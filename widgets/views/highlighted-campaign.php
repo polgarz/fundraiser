@@ -3,7 +3,7 @@ use yii\helpers\Url;
 ?>
 <section class="bg-gradient campaign-volunteers-section text-left">
     <div class="center-section mx-auto">
-        <div class="birthday-promo" style="background-image: url(<?= $model->getBehavior('highlight')->getThumbUploadUrl('highlight_image', 'main') ?>)">
+        <div class="highlighted-campaign" style="background-image: url(<?= $model->getBehavior('highlight')->getThumbUploadUrl('highlight_image', 'main') ?>)">
             <div class="p-4">
                 <h2 class="text-uppercase pb-0 mb-1"><?= $model->title ?></h2>
                 <?php if ($model->highlight_subtitle): ?>

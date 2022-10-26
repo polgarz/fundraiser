@@ -28,8 +28,8 @@
         width: 100%;
         height: 100%;
         bottom: 0;
-        background: -webkit-linear-gradient(90deg, rgba(152,33,26,0.7) 0%, rgba(152,33,26,0.1) 100%);
-        background: linear-gradient(90deg, rgba(152,33,26,0.7) 0%, rgba(152,33,26,0.1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(48, 65, 97,0.7) 0%, rgba(48, 65, 97,0.1) 100%);
+        background: linear-gradient(90deg, rgba(48, 65, 97,0.7) 0%, rgba(48, 65, 97,0.1) 100%);
         z-index: 88;
     }
 
@@ -59,7 +59,7 @@
     }
 }
 
-.birthday-promo {
+.highlighted-campaign {
     min-height: 300px;
     background-image: url('/dist/img/gift-girl.jpg');
     background-size: cover;
@@ -81,7 +81,7 @@
 }
 
 @include media-breakpoint-down(sm) {
-    .birthday-promo {
+    .highlighted-campaign {
         background-image: url('/dist/img/gift-girl-m.jpg');
         background-position: right;
     }
