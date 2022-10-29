@@ -336,11 +336,15 @@ msgstr "Message"
 
 msgctxt "footer"
 msgid "Információk"
-msgstr ""
+msgstr "Information"
+
+msgctxt "footer"
+msgid "Adatvédelmi nyilatkozat"
+msgstr "Privacy policy"
 
 msgctxt "footer"
 msgid "Minden jog fenntartva"
-msgstr ""
+msgstr "All rights reserved"
 
 msgctxt "user"
 msgid "A folytatáshoz kérjük jelentkezz be"

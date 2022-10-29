@@ -23,7 +23,7 @@ CampaignAsset::register($this);
                 <?php if ($campaigns): ?>
                     <section class="support-section text-center">
                         <div class="support-section-wrapper center-section mx-auto pb-2">
-                            <h2 class="text-uppercase m-0 p-1">Aktuális gyűjtéseink</h2>
+                            <h2 class="text-uppercase m-0 p-1"><?= Yii::t('campaign/ambassador', 'Kampányok') ?></h2>
                             <?php foreach($campaigns as $campaign): ?>
                                 <div class="campaign text-left my-4 my-0">
                                     <div class="cover d-flex align-items-center" style="background-image: url(<?= $campaign->getBehavior('cover')->getThumbUploadUrl('cover_image', 'list') ?>">
