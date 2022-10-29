@@ -329,7 +329,7 @@ class DonationForm extends Model
             'recurring' => (int) ($this->donation_type == self::DONATION_TYPE_RECURRING),
             ]);
 
-        if ($this->newsletter) {
+        if ($this->newsletter && Yii::$app->params['mailchimp']['key'] !== '') {
             $this->subscribeToMailchimp();
         }
 
