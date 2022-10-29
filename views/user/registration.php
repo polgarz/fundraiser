@@ -8,6 +8,7 @@
 use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
 use app\assets\UserAsset;
+use kekaadrenalin\recaptcha3\ReCaptchaWidget;
 use yii\authclient\widgets\AuthChoice;
 use yii\helpers\Url;
 
@@ -37,6 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <?= $form->field($model, 'password')->passwordInput(['placeholder' => $model->getAttributeLabel('password')])->label(false) ?>
                                 <?= $form->field($model, 'password_repeat')->passwordInput(['placeholder' => $model->getAttributeLabel('password_repeat')])->label(false) ?>
                                 <?= $form->field($model, 'privacy_policy')->checkbox()->label(Yii::t('user', 'Elolvastam, és elfogadom az <a href="{url}">adatvédelmi szabályzatot</a>', ['url' => Url::to(['static/privacy-policy'])])) ?>
+                                <?= $form->field($model, 'captcha')->widget(ReCaptchaWidget::class) ?>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <?= Html::submitbutton(Yii::t('user', 'Regisztráció'), ['class' => 'btn btn-primary btn-md btn-block text-center m-b-20']) ?>

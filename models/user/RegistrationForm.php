@@ -21,6 +21,7 @@ class RegistrationForm extends Model
     public $password;
     public $password_repeat;
     public $privacy_policy;
+    public $captcha;
 
     private $_user = false;
 
@@ -38,6 +39,7 @@ class RegistrationForm extends Model
             ['password_repeat', 'compare', 'compareAttribute' => 'password', 'message' => 'A két jelszó nem egyezik'],
             ['phone', 'match', 'pattern' => '/^\+[0-9-]+$/'],
             [['privacy_policy'], 'required', 'requiredValue' => 1, 'message' => 'A regisztrációhoz kötelező elfogadni az adatvédelmi tájékoztatóban foglaltakat'],
+            [['captcha'], ReCaptchaValidator::class, 'acceptance_score' => 0],
         ];
     }
 
