@@ -27,30 +27,22 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-    <nav class="main-nav navbar navbar-expand-sm navbar-light bg-white d-flex sticky-top">
+    <nav class="main-nav navbar navbar-expand navbar-light bg-white d-flex sticky-top">
         <div class="container">
             <a class="navbar-brand" href="<?= Yii::$app->homeUrl ?>">
                 <img src="/dist/svg/logo.svg" height="30" class="d-inline-block align-top mr-1" alt="<?= Yii::$app->name ?>" />
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Menü">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div id="navbarToggler" class="collapse navbar-collapse d-flex justify-content-between align-items-center">
-                <ul class="navbar-nav">
-                </ul>
-                <ul class="navbar-nav align-items-center">
-                    <li class="nav-item">
-                        <a href="<?= Url::to(['user/profile']) ?>" class="nav-link navbar-icon user mr-3"></a>
-                    </li>
-                    <?= LanguagePicker::widget([
-                        'itemTemplate' => '<a class="dropdown-item" href="{link}">{name}</a>',
-                        'activeItemTemplate' => '<a href="{link}" class="nav-link dropdown-toggle p-0" title="{language}"><i class="{language}"></i> {name}</a>',
-                        'parentTemplate' => '<li class="nav-link dropdown">{activeItem}<div class="dropdown-menu">{items}</div></li>',
-                    ]) ?>
-                </ul>
-            </div>
+            <ul class="navbar-nav align-items-center flex-row">
+                <li class="nav-item">
+                    <a href="<?= Url::to(['user/profile']) ?>" class="nav-link navbar-icon user mr-3"></a>
+                </li>
+                <?= LanguagePicker::widget([
+                    'itemTemplate' => '<a class="dropdown-item" href="{link}">{name}</a>',
+                    'activeItemTemplate' => '<a href="{link}" class="nav-link dropdown-toggle p-0" title="{language}"><i class="{language}"></i> {name}</a>',
+                    'parentTemplate' => '<li class="nav-link dropdown">{activeItem}<div class="dropdown-menu">{items}</div></li>',
+                ]) ?>
+            </ul>
         </div>
     </nav>
 
