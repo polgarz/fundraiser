@@ -50,19 +50,6 @@ class CampaignController extends Controller
     }
 
     /**
-     * @inheritdoc
-     */
-    public function beforeAction($action)
-    {
-        // disable CSRF validation because of tinymce POST
-        if ($action->id == 'upload-image') {
-            $this->enableCsrfValidation = false;
-        }
-
-        return parent::beforeAction($action);
-    }
-
-    /**
      * Lists all Campaign models.
      * @return mixed
      */
@@ -168,44 +155,6 @@ class CampaignController extends Controller
         }
 
         return $this->redirect(['index']);
-    }
-
-    /**
-     * Uploads an image
-     *
-     * @return void
-     */
-    public function actionUploadImage()
-    {
-        Yii::$app->response->format = 'json';
-
-        $path = Yii::getAlias('@webroot/uploads/images/media/');
-
-        if (!is_dir($path)) {
-            \yii\helpers\FileHelper::createDirectory($path);
-        }
-
-        $file = UploadedFile::getInstanceByName('file');
-
-        if ($file instanceof UploadedFile) {
-            $filename = Inflector::slug(pathinfo($file->name, PATHINFO_FILENAME) . '_' . uniqid());
-            $extension = pathinfo($file->name, PATHINFO_EXTENSION);
-
-            $file->saveAs($path . $filename . '.' . $extension);
-
-            try {
-                // resize at max 1110px, because bigger is unnecessary
-                Image::resize($path . $filename . '.' . $extension, 1110, null)
-                    ->save($path . $filename . '.' . $extension)
-                    ->save($path . $filename . '.webp');
-            } catch(\Exception $e) {
-                Yii::error($e->getMessage());
-            }
-
-            return ['location' => Yii::getAlias('@web/uploads/images/media/' . $filename . '.' . $extension)];
-        }
-
-        return ['location' => ''];
     }
 
     public function actionDeleteOgImage($id)
