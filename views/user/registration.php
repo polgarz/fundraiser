@@ -42,14 +42,16 @@ $this->params['breadcrumbs'][] = $this->title;
                                         <?= Html::submitbutton(Yii::t('user', 'Regisztráció'), ['class' => 'btn btn-primary btn-md btn-block text-center m-b-20']) ?>
                                     </div>
                                 </div>
-                                <div class="or-container">
-                                    <div class="line-separator"></div>
-                                    <div class="or-label"><?= Yii::t('app', 'vagy') ?></div>
-                                    <div class="line-separator"></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <?php $authAuthChoice = AuthChoice::begin(['baseAuthUrl' => ['user/auth']]) ?>
+                                <?php $authAuthChoice = AuthChoice::begin(['baseAuthUrl' => ['user/auth']]) ?>
+                                    <?php if ($authAuthChoice->getClients() !== []): ?>
+                                        <div class="or-container">
+                                            <div class="line-separator"></div>
+                                            <div class="or-label"><?= Yii::t('app', 'vagy') ?></div>
+                                            <div class="line-separator"></div>
+                                        </div>
+                                    <?php endif ?>
+                                    <div class="row">
+                                        <div class="col-md-12">
                                             <?php foreach ($authAuthChoice->getClients() as $client): ?>
                                                 <a class="btn btn-social btn-white btn-block btn-outline" href="<?= $authAuthChoice->createClientUrl($client) ?>">
                                                     <div class="d-flex justify-content-center align-items-center">
@@ -58,9 +60,9 @@ $this->params['breadcrumbs'][] = $this->title;
                                                     </div>
                                                 </a>
                                             <?php endforeach ?>
-                                        <?php AuthChoice::end() ?>
+                                        </div>
                                     </div>
-                                </div>
+                                <?php AuthChoice::end() ?>
                             </div>
                         </div>
                     <?php ActiveForm::end() ?>

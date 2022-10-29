@@ -8,6 +8,25 @@ $db = require __DIR__ . '/db.php';
 $rules = require __DIR__ . '/rules.php';
 $simplePay = require __DIR__ . '/simplepay.php';
 
+$clients = [];
+
+if ($_ENV['GOOGLE_LOGIN_CLIENT_ID'] !== '') {
+    $clients['google'] = [
+        'class' => 'yii\authclient\clients\Google',
+        'clientId' => $_ENV['GOOGLE_LOGIN_CLIENT_ID'],
+        'clientSecret' => $_ENV['GOOGLE_LOGIN_CLIENT_SECRET'],
+    ];
+}
+
+if ($_ENV['FACEBOOK_LOGIN_CLIENT_ID'] !== '') {
+    $clients['facebook'] = [
+        'class' => 'yii\authclient\clients\Facebook',
+        'clientId' => $_ENV['FACEBOOK_LOGIN_CLIENT_ID'],
+        'clientSecret' => $_ENV['FACEBOOK_LOGIN_CLIENT_SECRET'],
+    ];
+}
+
+
 $config = [
     'id' => 'basic',
     'name' => $_ENV['APP_NAME'],
@@ -45,18 +64,7 @@ $config = [
         ],
         'authClientCollection' => [
             'class' => 'yii\authclient\Collection',
-            'clients' => [
-                'google' => [
-                    'class' => 'yii\authclient\clients\Google',
-                    'clientId' => $_ENV['GOOGLE_LOGIN_CLIENT_ID'],
-                    'clientSecret' => $_ENV['GOOGLE_LOGIN_CLIENT_SECRET'],
-                ],
-                'facebook' => [
-                    'class' => 'yii\authclient\clients\Facebook',
-                    'clientId' => $_ENV['FACEBOOK_LOGIN_CLIENT_ID'],
-                    'clientSecret' => $_ENV['FACEBOOK_LOGIN_CLIENT_SECRET'],
-                ],
-            ],
+            'clients' => $clients,
         ],
         'formatter' => [
             'currencyCode' => 'HUF',
