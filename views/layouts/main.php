@@ -60,7 +60,7 @@ AppAsset::register($this);
                 <div class="col-md-12">
                     <h5 class="text-uppercase mb-3"><?= Yii::t('footer', 'Információk') ?></h5>
                     <ul class="list-unstyled">
-                        <li><a href="#"><?= Yii::t('footer', 'Adatvédelmi nyilatkozat') ?></a></li>
+                        <li><a href="<?= Yii::$app->params['privacyPolicyUrl'] ?>"><?= Yii::t('footer', 'Adatvédelmi nyilatkozat') ?></a></li>
                     </ul>
                 </div>
             </div>

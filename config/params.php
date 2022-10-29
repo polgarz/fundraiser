@@ -15,5 +15,8 @@ return [
         'name' => $_ENV['TRANSFER_NAME'],
         'bank_account_nr' => $_ENV['TRANSFER_BANK_ACCOUNT_NR'],
         'bank_name' => $_ENV['TRANSFER_BANK_NAME'],
-    ]
+    ],
+    'recurringPaymentInfoUrl' => $_ENV['RECURRING_PAYMENT_INFO_URL'],
+    'privacyPolicyUrl' => $_ENV['PRIVACY_POLICY_URL'],
+    'cardRegistrationPolicyUrl' => $_ENV['CARD_REGISTRATION_POLICY_URL']
 ];

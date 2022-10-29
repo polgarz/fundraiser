@@ -110,7 +110,7 @@ if ($model->recurring_available) {
                 <div class="form-check">
                     <input type="radio" id="donation_type-' . $value . '" class="form-check-input" name="' . $name . '" value="' . $value . '" ' . ($checked ? 'CHECKED' : '') . '>
                     <label class="form-check-label" for="donation_type-' . $value . '">
-                        <div class="mb-n2 font-weight-bold" style="font-size: 14px; color: white">' . $label . ' ' . ($value == DonationForm::DONATION_TYPE_RECURRING ? Html::a('<small>' . Yii::t('campaign/donation-form', 'mi ez?') . '</small>', ['post/details', 'slug' => 'monthly-donation']) : '')  . '</div>
+                        <div class="mb-n2 font-weight-bold" style="font-size: 14px; color: white">' . $label . ' ' . ($value == DonationForm::DONATION_TYPE_RECURRING ? Html::a('<small>' . Yii::t('campaign/donation-form', 'mi ez?') . '</small>', Yii::$app->params['recurringPaymentInfoUrl']) : '')  . '</div>
                     </label>
                 </div>
             ';
@@ -166,7 +166,7 @@ if ($model->recurring_available) {
             'checkOptions' => ['class' => 'form-check-input'],
         ])->checkbox([
             'labelOptions' => ['class' => 'form-check-label']
-        ])->label(Html::a($model->getAttributeLabel('privacy_policy'), ['post/details', 'slug' => 'adatvedelem'])) ?>
+        ])->label(Html::a($model->getAttributeLabel('privacy_policy'), Yii::$app->params['privacyPolicyUrl'])) ?>
 
     <?php if ($model->recurring_available): ?>
         <?= $form->field($model, 'card_registration_policy', [
@@ -174,7 +174,7 @@ if ($model->recurring_available) {
                 'checkOptions' => ['class' => 'form-check-input']
             ])->checkbox([
                 'labelOptions' => ['class' => 'form-check-label']
-            ])->label(Html::a($model->getAttributeLabel('card_registration_policy'), ['post/details', 'slug' => 'kartyaregisztracios-nyilatkozat'])) ?>
+            ])->label(Html::a($model->getAttributeLabel('card_registration_policy'), Yii::$app->params['cardRegistrationPolicyUrl'])) ?>
     <?php endif ?>
 
     <?= $form->field($model, 'newsletter', [
