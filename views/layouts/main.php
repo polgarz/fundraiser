@@ -37,10 +37,13 @@ AppAsset::register($this);
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div id="navbarToggler" class="collapse navbar-collapse d-flex justify-content-between">
+            <div id="navbarToggler" class="collapse navbar-collapse d-flex justify-content-between align-items-center">
                 <ul class="navbar-nav">
                 </ul>
-                <ul class="navbar-nav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a href="<?= Url::to(['user/profile']) ?>" class="nav-link navbar-icon user mr-3"></a>
+                    </li>
                     <?= LanguagePicker::widget([
                         'itemTemplate' => '<a class="dropdown-item" href="{link}">{name}</a>',
                         'activeItemTemplate' => '<a href="{link}" class="nav-link dropdown-toggle p-0" title="{language}"><i class="{language}"></i> {name}</a>',
