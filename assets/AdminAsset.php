@@ -21,7 +21,6 @@ class AdminAsset extends AssetBundle
         'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
     ];
     public $js = [
-        'https://cdn.ckeditor.com/ckeditor5/35.2.1/classic/ckeditor.js',
         'https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js',
         '/dist/js/admin.min.js',
     ];

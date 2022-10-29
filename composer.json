@@ -35,7 +35,8 @@
         "kartik-v/yii2-date-range": "dev-master",
         "drewm/mailchimp-api": "*",
         "lajax/yii2-language-picker": "1.*",
-        "vlucas/phpdotenv": "^5.5"
+        "vlucas/phpdotenv": "^5.5",
+        "bizley/quill": "^3.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

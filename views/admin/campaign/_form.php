@@ -9,7 +9,7 @@ use unclead\multipleinput\MultipleInputColumn;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap4\ActiveForm;
-use yii\web\View;
+use bizley\quill\Quill;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\campaign\Campaign */
@@ -35,7 +35,19 @@ if ($model->isNewRecord) {
 
             <?= $form->field($model, 'lead')->textarea(['rows' => 3])->hint('Ez fog megjelenni a listában') ?>
 
-            <?= $form->field($model, 'content')->textarea(['rows' => 6, 'id' => 'description']) ?>
+            <?= $form->field($model, 'content')->widget(Quill::class, [
+                'toolbarOptions' => [
+                    ['bold', 'italic', 'underline', 'strike'],
+                    ['blockquote'],
+                    [['list' => 'ordered'], [ 'list' => 'bullet']],
+                    [['indent' => '-1'], [ 'indent' => '+1']],
+                    [['header' => [1, 2, 3, 4, 5, 6, false]]],
+                    [['color' => []], [ 'background' => []]],
+                    [['align' => []]],
+                    ['image', 'video'],
+                    ['clean']
+                ]
+            ]) ?>
 
             <div class="card mb-4">
                 <div class="card-header d-flex justify-content-between align-items-center collapsed cursor-pointer" data-toggle="collapse" data-target="#collapseHighlight" aria-expanded="false" aria-controls="collapseHighlight">
