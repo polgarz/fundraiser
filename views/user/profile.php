@@ -94,7 +94,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                                 </div>
                                             </div>
                                             <?php foreach($donation->donations as $child): ?>
-                                                <div class="row my-2 bg-pink mx-2 align-items-center">
+                                                <div class="row my-2 border mx-2 align-items-center">
                                                     <div class="col-sm-2 py-2">
                                                         <strong><?= Yii::$app->formatter->asCurrency($child->amount) ?></strong>
                                                     </div>
@@ -125,7 +125,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                         <?php foreach($campaigns as $campaign): ?>
                                             <h5 class="text-secondary mx-2 mt-3"><?= $campaign->campaign->title ?></h5>
-                                            <div class="row align-items-center bg-pink mx-2">
+                                            <div class="row align-items-center border mx-2">
                                                 <div class="col-md-6">
                                                     <div class="float-left mt-1 mb-1 text-secondary">
                                                         <small><strong><?= Yii::$app->formatter->asCurrency($campaign->collected) ?></strong> <?= Yii::t('campaign/ambassador', 'összegyűjtve') ?></small>

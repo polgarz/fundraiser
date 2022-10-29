@@ -10,7 +10,7 @@
         box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.12);
 
         .footer {
-            background-color: #FCEEEC;
+            background-color: rgba(theme-color("primary"), .25);
         }
 
         .progress {
@@ -57,7 +57,7 @@
     top: 80px;
 
     .footer {
-        background-color: #FCEEEC;
+        background-color: rgba(theme-color("primary"), .2);
     }
 }
 

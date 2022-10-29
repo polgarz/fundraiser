@@ -1,0 +1,18 @@
+$font-family-base: 'Open Sans', sans-serif;
+$navbar-dark-color: white;
+$theme-colors: (
+    "primary": #9cadce,
+    "primary-darker": #304161,
+    "secondary": #585858,
+);
+$headings-font-family: 'Montserrat', sans-serif;
+$headings-font-weight: 400;
+$headings-color: #9cadce;
+$spacer: 1rem;
+$footer-text-color: white;
+$footer-text-color-hover: white;
+$spacers: (
+    6: ($spacer * 6),
+    7: ($spacer * 7),
+    8: ($spacer * 8)
+);

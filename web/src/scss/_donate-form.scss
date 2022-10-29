@@ -1,7 +1,7 @@
 .donate-form-widget {
 
-    background: rgb(152,33,26);
-    background: linear-gradient(-45deg, #304161 0%, #9cadce 100%);
+    background: theme-color("primary-darker");
+    background: linear-gradient(-45deg, theme-color("primary-darker") 0%, theme-color("primary") 100%);
 
     input[type=text], input[type=email], input[type=number], textarea {
         background: rgba(255,255,255,0.35);
@@ -72,6 +72,6 @@
     }
 
     .invalid-feedback {
-        color: yellow;
+        color: red;
     }
 }

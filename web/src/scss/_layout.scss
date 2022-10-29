@@ -1,18 +1,34 @@
-.upper-nav-wrapper {
-    font-size: 14px;
-    font-weight: 300;
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+.bg-gradient {
+    background: rgba(theme-color("primary"), .2);
+    background: -moz-linear-gradient(left, rgba(theme-color("primary"), .2) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(theme-color("primary"), .2)), color-stop(71%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left, rgba(theme-color("primary"), .2) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(theme-color("primary"), .2) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(theme-color("primary"), .2) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right, rgba(theme-color("primary"), .2) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faedf0', endColorstr='#ffffff', GradientType=1 );
+}
+
+.center-section {
     max-width: 1100px;
     width: 100%;
+    font-size: 14px;
 }
 
-.upper-nav-icon {
-    font-size: 20px;  /* Preferred icon size */
-    display: inline-block;
-    vertical-align: middle;
+.rounded-xl {
+    border-radius: 1.5rem;
 }
 
-.upper-nav {
-    background-color: #320405;
+.btn-white {
+    background-color: white;
+    color: theme-color(primary);
+    border: none;
+}
+
+::placeholder {
+    opacity: .5 !important;
 }
 
 .main-nav {
@@ -83,27 +99,27 @@
 }
 
 footer {
-    background-color: #304161;
+    background-color: theme-color("primary-darker");
 }
 
 footer hr {
-    background-color: #ccc;
+    background-color: $footer-text-color;
 }
 
 footer h5 {
-    color: #ccc;
+    color: $footer-text-color;
 }
 
 footer a, footer li {
-    color: #ccc;
+    color: $footer-text-color;
 }
 
 footer a:hover {
-    color: white;
+    color: $footer-text-color-hover;
 }
 
 footer .small {
-    color: #ccc;
+    color: $footer-text-color;
 }
 
 footer li {
