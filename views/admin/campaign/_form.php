@@ -1,6 +1,5 @@
 <?php
 
-use app\assets\TinyMCEAsset;
 use app\models\campaign\Campaign;
 use app\models\campaign\CampaignDonationOption;
 use kartik\file\FileInput;
@@ -10,38 +9,11 @@ use unclead\multipleinput\MultipleInputColumn;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap4\ActiveForm;
-use yii\widgets\MaskedInput;
+use yii\web\View;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\campaign\Campaign */
 /* @var $form yii\widgets\ActiveForm */
-
-TinyMCEAsset::register($this);
-
-$this->registerJs("
-    tinymce.init({
-        selector: '#description',
-        plugins: 'link lists image media code imagetools',
-        toolbar: 'formatselect | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | numlist bullist | link image media | blockquote | removeformat code',
-        block_formats: 'Paragraph=p;Heading 2=h2;Heading 3=h3;Heading 4=h4;Heading 5=h5;Heading 6=h6;Preformatted=pre',
-        image_caption: true,
-        image_advtab: true,
-        end_container_on_empty_block: true,
-        menubar: false,
-        content_css: '/dist/css/tinymce.css',
-        automatic_uploads: true,
-        file_picker_types: 'image',
-        images_upload_url: 'upload-image',
-        convert_urls: false,
-        language: 'hu_HU',
-        height: 500,
-        image_class_list: [
-            {title: 'Nincs', value: ''},
-            {title: 'Teljes szélesség', value: 'w-100'},
-            {title: 'Fele szélesség', value: 'w-50'},
-        ]
-    });
-");
 
 if ($model->isNewRecord) {
     $this->registerJs("

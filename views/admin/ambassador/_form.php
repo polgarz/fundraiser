@@ -1,6 +1,5 @@
 <?php
 
-use app\assets\TinyMCEAsset;
 use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
 use kartik\file\FileInput;

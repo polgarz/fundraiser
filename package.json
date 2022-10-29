@@ -6,10 +6,7 @@
   "license": "BSD-2-Clause",
   "main": "index.php",
   "dependencies": {
-    "bootstrap": "4.5.0",
-    "glightbox": "^3.0.5",
-    "jarallax": "1.12.1",
-    "tiny-slider": "^2.9.3"
+    "bootstrap": "4.5.0"
   },
   "devDependencies": {
     "del": "^5.1.0",

@@ -2,7 +2,6 @@
 
 return [
     'bsVersion' => '4.x',
-    'tinymceApiKey' => '',
     'senderEmail' => $_ENV['DEFAULT_SENDER_EMAIL'],
     'senderName' => $_ENV['DEFAULT_SENDER_NAME'],
     'campaignNotificationRecipients' => [
