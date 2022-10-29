@@ -3,9 +3,9 @@
 if (YII_ENV === 'dev') {
     return [
         'class' => 'yii\db\Connection',
-        'dsn' => 'mysql:host=127.0.0.1;dbname=fundraiser',
+        'dsn' => 'mysql:host=mysql;dbname=fundraiser',
         'username' => 'root',
-        'password' => 'secret',
+        'password' => 'fundraiser',
         'charset' => 'utf8mb4',
     ];
 }
