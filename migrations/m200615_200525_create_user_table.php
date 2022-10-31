@@ -31,8 +31,8 @@ class m200615_200525_create_user_table extends Migration
 
         $this->insert('user', [
             'id' => 1,
-            'first_name' => 'Polgár',
-            'last_name' => 'Zoltán',
+            'first_name' => 'Admin',
+            'last_name' => 'Admin',
             'email' => 'admin@admin.com',
             'password' => Yii::$app->security->generatePasswordHash('admin'),
             'group' => 'admin',

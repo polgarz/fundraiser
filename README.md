@@ -57,3 +57,11 @@ To use the recurring payment you should add a cronjob entry to your crontab file
 ## Theming
 
 You can change the colors of the theme by modifying the `web/src/scss/_variables.scss` file, then rebuilding the assets. Or you can change anything - it's up to you.
+
+## Admin
+
+You can then access the admin panel through the following URL:
+
+    http://127.0.0.1:8000/admin
+
+With the default admin user / password: `admin@admin.com` / `admin`
