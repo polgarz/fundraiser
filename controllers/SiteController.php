@@ -9,7 +9,6 @@ use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
-use yii\helpers\ArrayHelper;
 
 class SiteController extends Controller
 {
@@ -84,8 +83,8 @@ class SiteController extends Controller
     {
         if (Yii::$app->user->can(User::GROUP_ADMIN)) {
             return $this->redirect(['admin/user/index']);
-        } else if (Yii::$app->user->can(User::GROUP_FUNDRAISER)) {
-            return $this->redirect(['admin/ambassador/index']);
         }
+
+        return $this->redirect(['index']);
     }
 }

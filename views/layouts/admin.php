@@ -52,7 +52,7 @@ $this->registerJs('feather.replace()');
                 'items' => [
                     '<h6 class="sidebar-heading d-flex justify-content-between align-items-center mb-1 mt-2 d-md-none text-muted"><span>Adminisztráció</span></h6>',
                     ['label' => '<i class="fa fa-user"></i> Felhasználók', 'url' => ['admin/user/index'], 'options' => ['class' => 'nav-item d-md-none text-nowrap'], 'visible' => Yii::$app->user->can(User::GROUP_ADMIN)],
-                    ['label' => '<i class="fa fa-heart"></i> Kampányok', 'url' => ['admin/campaign/index'], 'options' => ['class' => 'nav-item d-md-none text-nowrap'], 'visible' => Yii::$app->user->can(User::GROUP_ADMIN) || Yii::$app->user->can(User::GROUP_FUNDRAISER)],
+                    ['label' => '<i class="fa fa-heart"></i> Kampányok', 'url' => ['admin/campaign/index'], 'options' => ['class' => 'nav-item d-md-none text-nowrap'], 'visible' => Yii::$app->user->can(User::GROUP_ADMIN)],
                     ['label' => '<i class="fa fa-dollar-sign"></i> Adományok', 'url' => ['admin/donation/index'], 'options' => ['class' => 'nav-item d-md-none text-nowrap'], 'visible' => Yii::$app->user->can(User::GROUP_ADMIN)],
                     ['label' => '<i class="fa fa-sign-out-alt"></i> Kijelentkezés', 'url' => ['user/logout'], 'options' => ['class' => 'nav-item text-nowrap'], 'linkOptions' => ['data-method' => 'post'], 'visible' => !Yii::$app->user->isGuest],
                 ],
@@ -78,7 +78,7 @@ $this->registerJs('feather.replace()');
                 'items' => [
                     '<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-2 mb-1 text-muted"><span>Adminisztráció</span></h6>',
                     ['label' => '<i class="fa fa-user"></i> Felhasználók', 'url' => ['admin/user/index'], 'options' => ['class' => 'text-nowrap'], 'visible' => Yii::$app->user->can(User::GROUP_ADMIN)],
-                    ['label' => '<i class="fa fa-heart"></i> Kampányok', 'url' => ['admin/campaign/index'], 'options' => ['class' => 'text-nowrap'], 'visible' => Yii::$app->user->can(User::GROUP_ADMIN) || Yii::$app->user->can(User::GROUP_FUNDRAISER)],
+                    ['label' => '<i class="fa fa-heart"></i> Kampányok', 'url' => ['admin/campaign/index'], 'options' => ['class' => 'text-nowrap'], 'visible' => Yii::$app->user->can(User::GROUP_ADMIN)],
                     ['label' => '<i class="fa fa-dollar-sign"></i> Adományok', 'url' => ['admin/donation/index'], 'options' => ['class' => 'text-nowrap'], 'visible' => Yii::$app->user->can(User::GROUP_ADMIN)],
                 ],
             ]) ?>

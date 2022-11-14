@@ -22,7 +22,7 @@ $config = [
         'simplePayV2' => $simplePay,
         'authManager' => [
             'class' => 'yii\rbac\PhpManager',
-            'defaultRoles' => ['admin', 'editor'],
+            'defaultRoles' => ['admin'],
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',

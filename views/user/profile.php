@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         <div class="col-3"><h1><?= $this->title ?></h1></div>
                         <div class="col-9 text-right">
                             <a class="btn btn-primary btn-primary rounded-xl text-center" href="<?= Url::to(['user/logout']) ?>" data-method="post"><?= Yii::t('user', 'Kijelentkezés') ?></a>
-                            <?php if (Yii::$app->user->can(User::GROUP_EDITOR) || Yii::$app->user->can(User::GROUP_ADMIN)): ?>
+                            <?php if (Yii::$app->user->can(User::GROUP_ADMIN)): ?>
                                 <a class="btn btn-secondary btn-primary rounded-xl text-center" href="<?= Url::to(['site/admin']) ?>">Admin</a>
                             <?php endif ?>
                         </div>

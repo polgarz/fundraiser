@@ -85,7 +85,7 @@ $config = [
         ],
         'authManager' => [
             'class' => 'yii\rbac\PhpManager',
-            'defaultRoles' => ['admin', 'editor'],
+            'defaultRoles' => ['admin'],
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',

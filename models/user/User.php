@@ -29,8 +29,6 @@ use yii\behaviors\TimestampBehavior;
 class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
 {
     const GROUP_ADMIN = 'admin';
-    const GROUP_EDITOR = 'editor';
-    const GROUP_FUNDRAISER = 'fundraiser';
 
     /**
      * {@inheritdoc}
