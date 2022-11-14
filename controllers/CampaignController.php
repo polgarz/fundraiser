@@ -8,6 +8,7 @@ use app\models\campaign\ApplyForm;
 use app\models\campaign\CampaignAmbassador;
 use app\models\campaign\UpdateAmbassadorCampaignForm;
 use app\models\donation\DonationForm;
+use app\models\user\User;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
@@ -111,9 +112,9 @@ class CampaignController extends Controller
             throw new NotFoundHttpException(Yii::t('campaign', 'Nincs ilyen kampány'));
         }
 
-        $model = $campaign->getAmbassadors()->where(['approved' => 1, 'slug' => $slug])->one();
+        $model = $campaign->getAmbassadors()->where(['slug' => $slug])->one();
 
-        if (!$model) {
+        if (!$model || (!$model->approved && !Yii::$app->user->can(User::GROUP_ADMIN)) && $model->user_id != Yii::$app->user->id) {
             throw new NotFoundHttpException(Yii::t('campaign', 'Nem található nagykövet ezen a linken'));
         }
 
