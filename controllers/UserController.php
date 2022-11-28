@@ -329,6 +329,16 @@ class UserController extends Controller
             throw new NotFoundHttpException(Yii::t('campaign', 'Ismeretlen rendszeres adományozás'));
         }
 
+        $simplePay = Yii::$app->simplePayV2->createSimplePayCardCancel();
+        $simplePay->addData('cardId', $model->vendor_ref);
+        $simplePay->runCardCancel();
+
+        $data = $simplePay->getReturnData();
+
+        if (!isset($data['status']) || $data['status'] !== 'DISABLED') {
+            throw new \Exception(Yii::t('campaign', 'Nem sikerült inaktiválni a kártyát'));
+        }
+
         foreach($model->donations as $donation) {
             if ($donation->token && $donation->status == Donation::STATUS_READY) {
                 $donation->delete();
