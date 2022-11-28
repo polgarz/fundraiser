@@ -34,39 +34,62 @@ class DonateController extends Controller
         }
 
         foreach ($tokens as $token) {
-            $simplePay = Yii::$app->simplePayV2->createSimplePayDoRecurring();
-            $simplePay->addData('token', $token->token);
-            $simplePay->addData('orderRef', $token->id);
-            $simplePay->addData('total', $token->amount);
-            $simplePay->addData('customer', $token->name);
-            $simplePay->addData('customerEmail', $token->email);
-            $simplePay->runDorecurring();
+            $this->doPayment($token);
+        }
+    }
 
-            $returnData = $simplePay->getReturnData();
+    public function actionTestPayment(int $donationId)
+    {
+        $model = Donation::find()
+            ->joinWith('parent AS parent')
+            ->andWhere(['is not', 'donation.parent_id', null])
+            ->andWhere(['is not', 'donation.token_due_date', null])
+            ->andWhere(['donation.status' => Donation::STATUS_READY])
+            ->andWhere(['parent.status' => Donation::STATUS_FINISHED])
+            ->andWhere(['donation.id' => $donationId])
+            ->one();
 
-            if (array_key_exists('errorCodes', $returnData)) {
-                $errorCodes = $returnData['errorCodes'];
-                $token->status = Donation::STATUS_ERROR;
-                $token->save(false);
+        if ($model === null) {
+            throw new \Exception('Donation not found');
+        }
 
-                // inactive the recurring payment if one of these error code appear
-                if (array_intersect([2072], $errorCodes) !== []) {
-                    $parent = Donation::findOne($token->parent_id);
-                    $parent->status = Donation::STATUS_EXPIRED;
-                    $parent->save();
-                }
+        $this->doPayment($model);
+    }
 
-                Yii::error('Hiba! Kod(ok): ' . join(', ', $errorCodes), 'payment');
-                $this->stdout('Hiba! Kod(ok): ' . join(', ', $errorCodes) . PHP_EOL);
-                continue;
-            }
+    private function doPayment(Donation $token)
+    {
+        $simplePay = Yii::$app->simplePayV2->createSimplePayDoRecurring();
+        $simplePay->addData('token', $token->token);
+        $simplePay->addData('orderRef', $token->id);
+        $simplePay->addData('total', $token->amount);
+        $simplePay->addData('customer', $token->name);
+        $simplePay->addData('customerEmail', $token->email);
+        $simplePay->runDorecurring();
 
-            $token->created_at = date('Y-m-d H:i:s');
-            $token->status = Donation::STATUS_FINISHED;
-            $token->vendor_ref = $returnData['transactionId'];
+        $returnData = $simplePay->getReturnData();
+
+        if (array_key_exists('errorCodes', $returnData)) {
+            $errorCodes = $returnData['errorCodes'];
+            $token->status = Donation::STATUS_ERROR;
             $token->save(false);
 
-            $this->stdout('Sikeres token bevaltas, tranzakcio azonosito: ' . $token->id . ', szulo tranzakcio: ' . $token->parent->id . PHP_EOL, Console::FG_GREEN);
+            // inactive the recurring payment if one of these error code appear
+            if (array_intersect([2072], $errorCodes) !== []) {
+                $parent = Donation::findOne($token->parent_id);
+                $parent->status = Donation::STATUS_EXPIRED;
+                $parent->save();
+            }
+
+            Yii::error('Hiba! Kod(ok): ' . join(', ', $errorCodes), 'payment');
+            $this->stdout('Hiba! Kod(ok): ' . join(', ', $errorCodes) . PHP_EOL);
+            return;
         }
+
+        $token->created_at = date('Y-m-d H:i:s');
+        $token->status = Donation::STATUS_FINISHED;
+        $token->vendor_ref = $returnData['transactionId'];
+        $token->save(false);
+
+        $this->stdout('Sikeres token bevaltas, tranzakcio azonosito: ' . $token->id . ', szulo tranzakcio: ' . $token->parent->id . PHP_EOL, Console::FG_GREEN);
     }
 }
